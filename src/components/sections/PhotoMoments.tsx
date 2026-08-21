@@ -117,42 +117,37 @@ export default function PhotoMoments() {
           </motion.div>
         </div>
 
-        {/* Galerie secondaire (Visite) */}
-        <div className="mt-16 md:mt-24">
-          <SectionHeading
-            label="Galerie"
-            title="Missions & Rencontres"
-            subtitle="Retour en images sur les dernières visites de haut niveau"
-          />
-          <div className="columns-1 gap-4 sm:columns-2 md:columns-3 lg:gap-6 mt-10">
-            {visitePhotos.map((photo, i) => (
-              <motion.div
-                key={photo.src}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: (i % 3) * 0.1 }}
-                className="group relative mb-4 break-inside-avoid overflow-hidden rounded-2xl border-2 border-gold/20 shadow-lg sm:mb-5 lg:mb-6"
-              >
-                <div className="relative">
-                  <Image
-                    src={photo.src}
-                    alt={photo.alt}
-                    width={800}
-                    height={600}
-                    className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-night/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                  <div className="absolute bottom-0 left-0 w-full translate-y-4 p-5 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                    <p className="font-display text-lg font-bold text-white">
-                      {photo.caption}
-                    </p>
-                  </div>
+        </div>
+
+        {/* Suite de la galerie (sans nouvelle section) */}
+        <div className="columns-1 gap-4 sm:columns-2 md:columns-3 lg:gap-6 mt-6 md:mt-8">
+          {visitePhotos.map((photo, i) => (
+            <motion.div
+              key={photo.src}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: (i % 3) * 0.1 }}
+              className="group relative mb-4 break-inside-avoid overflow-hidden rounded-2xl border-2 border-gold/20 shadow-lg sm:mb-5 lg:mb-6"
+            >
+              <div className="relative">
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  width={800}
+                  height={600}
+                  className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-night/90 via-night/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                <div className="absolute bottom-0 left-0 w-full translate-y-4 p-5 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                  <p className="font-display text-lg font-bold text-white">
+                    {photo.caption}
+                  </p>
                 </div>
-              </motion.div>
-            ))}
-          </div>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
