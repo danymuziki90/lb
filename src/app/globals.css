@@ -1,16 +1,86 @@
 @import "tailwindcss";
 
 :root {
-  --night: #0f172a;
-  --navy: #0b1f3a;
+  --night: #111827;
+  --navy: #1a3a5c;
   --institutional: #1e3a8a;
-  --gold: #c8a96b;
+  --gold: #c9a96b;
   --gold-light: #d4b87a;
+  --gold-warm: #e8c87a;
+  --cream: #f5f0e8;
+  --cream-dark: #ede7d9;
+  --warm-white: #faf8f5;
   --light: #f3f4f6;
   --white: #ffffff;
-  --background: var(--white);
+  --background: var(--warm-white);
   --foreground: var(--night);
 }
+
+.dark {
+  --background: var(--night);
+  --foreground: var(--white);
+}
+
+@theme inline {
+  --color-night: var(--night);
+  --color-navy: var(--navy);
+  --color-institutional: var(--institutional);
+  --color-institutional-light: #2563eb;
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-warm: var(--gold-warm);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-warm-white: var(--warm-white);
+  --color-light: var(--light);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background-color: #c9a96b;
+  color: #1a3a5c;
+}
+
+:focus-visible {
+  outline: 2px solid #c9a96b;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a2332;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-light);
+}
+
 
 .dark {
   --background: var(--night);

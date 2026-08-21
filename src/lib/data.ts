@@ -116,49 +116,21 @@ export interface ExpertiseItem {
 export const expertiseAreas: ExpertiseItem[] = [
   {
     icon: FaGlobeAfrica,
-    title: "Diplomatie Publique",
+    title: "Diplomatie publique & gestion de crise",
     description:
-      "Développement de stratégies de communication et de représentation institutionnelle.",
-  },
-  {
-    icon: MdCrisisAlert,
-    title: "Communication de Crise",
-    description:
-      "Gestion des communications dans des contextes sensibles et complexes.",
-  },
-  {
-    icon: FaUsers,
-    title: "Égalité de Genre",
-    description:
-      "Promotion du leadership féminin et des approches transformatrices.",
+      "Conseillère diplomatique auprès du Ministère de la Communication de la RDC, j'accompagne les institutions dans la conception de stratégies de communication sensibles aux conflits, le pilotage de la diplomatie publique et la gestion de crises complexes. Mon approche combine rigueur institutionnelle et intelligence du contexte.",
   },
   {
     icon: FaHandshake,
-    title: "Gouvernance et Paix",
+    title: "Femmes, Paix & Sécurité",
     description:
-      "Dialogue entre institutions, communautés et acteurs de la société civile.",
+      "Juriste féministe et experte en droits humains, je place l'inclusion des femmes au cœur des processus de paix, de sécurité et de gouvernance. À travers le plaidoyer, la formation et l'accompagnement institutionnel, je contribue à faire entendre des voix trop souvent absentes des tables de décision.",
   },
   {
     icon: FaHeart,
-    title: "Localisation de l'Aide",
-    description: "Renforcement des capacités des organisations locales.",
-  },
-  {
-    icon: FaChartLine,
-    title: "Leadership et Développement Organisationnel",
-    description: "Accompagnement des équipes et des institutions.",
-  },
-  {
-    icon: FaBalanceScale,
-    title: "Droits Humains",
+    title: "Localisation de l'aide & engagement communautaire",
     description:
-      "Approches basées sur les droits et la participation citoyenne.",
-  },
-  {
-    icon: FaProjectDiagram,
-    title: "Gestion de Programmes Multi-Pays",
-    description:
-      "Coordination de projets régionaux et consortiums internationaux.",
+      "Coordinatrice régionale expérimentée en Afrique centrale et au Sahel, je défends une aide humanitaire ancrée dans les réalités locales. Je renforce les capacités des organisations partenaires, facilite l'engagement communautaire et accompagne la transition vers une appropriation locale durable.",
   },
 ];
 
@@ -265,49 +237,28 @@ export interface ServiceItem {
 export const services: ServiceItem[] = [
   {
     icon: FaLandmark,
-    title: "Conseil Stratégique",
-    description: "Accompagnement des institutions et organisations.",
-  },
-  {
-    icon: FaGlobeAfrica,
-    title: "Diplomatie Publique",
-    description: "Positionnement institutionnel et relations internationales.",
+    title: "Conseil Stratégique & Diplomatique",
+    description: "Accompagnement personnalisé des institutions, gouvernements et organisations dans la conception et le pilotage de leurs stratégies institutionnelles et diplomatiques.",
   },
   {
     icon: MdCrisisAlert,
     title: "Communication de Crise",
-    description: "Gestion des situations sensibles.",
-  },
-  {
-    icon: FaUserTie,
-    title: "Développement du Leadership",
-    description: "Coaching et renforcement des compétences.",
+    description: "Gestion des communications en contextes sensibles, élaboration de narratifs stratégiques et accompagnement des équipes dans la traversée de crises complexes.",
   },
   {
     icon: FaUsers,
-    title: "Consolidation d'Équipe",
-    description: "Développement d'équipes performantes.",
+    title: "Genre, Paix & Gouvernance",
+    description: "Intégration de l'approche genre dans les politiques publiques, accompagnement des processus de paix inclusifs et renforcement de la participation des femmes dans les institutions.",
   },
   {
-    icon: FaBalanceScale,
-    title: "Conseil Genre et Gouvernance",
-    description:
-      "Intégration de l'égalité de genre dans les politiques et programmes.",
-  },
-  {
-    icon: FaShieldAlt,
-    title: "Conseil en Droits Humains",
-    description: "Approches fondées sur les droits.",
-  },
-  {
-    icon: FaProjectDiagram,
-    title: "Gestion de Projets",
-    description: "Conception, pilotage et évaluation.",
+    icon: FaHeart,
+    title: "Localisation & Renforcement des capacités",
+    description: "Appui à la localisation de l'aide humanitaire, renforcement des capacités des organisations locales et co-conception de programmes ancrés dans les communautés.",
   },
   {
     icon: HiOutlineAcademicCap,
-    title: "Formation et Facilitation",
-    description: "Animation de formations et dialogues participatifs.",
+    title: "Formation & Facilitation",
+    description: "Conception et animation de formations sur mesure, ateliers participatifs et dialogues multi-acteurs pour les équipes institutionnelles, humanitaires et communautaires.",
   },
 ];
 

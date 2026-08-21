@@ -1,113 +1,162 @@
-﻿"use client";
+"use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { useLanguage } from "@/components/layout/LanguageProvider";
+import { sitePhotos } from "@/lib/data";
+
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 export default function About() {
   const { t } = useLanguage();
+  const valueIcons = ["🤝", "🕊️", "🌍"];
 
   return (
-    <section id="apropos" className="relative bg-gradient-to-b from-slate-50 via-white to-slate-50 py-20 dark:from-night/40 dark:via-night/20 dark:to-night/40 md:py-28">
-      <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
-        <SectionHeading
-          label={t.about.label}
-          title={t.about.title}
-          subtitle={t.about.sectionSubtitle}
-          align="left"
-        />
+    <section id="apropos" className="relative overflow-hidden bg-warm-white py-20 md:py-32">
+      {/* Subtle warm background accent */}
+      <div
+        className="pointer-events-none absolute inset-0 opacity-40"
+        style={{
+          backgroundImage:
+            "radial-gradient(ellipse at 80% 0%, #f5f0e8 0%, transparent 60%)",
+        }}
+        aria-hidden
+      />
 
-        <div className="mt-16 grid gap-16 lg:grid-cols-2 xl:gap-20">
+      <div className="relative mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, ease: EASE }}
+        >
+          <SectionHeading
+            label={t.about.label}
+            title={t.about.title}
+            subtitle={t.about.sectionSubtitle}
+            align="left"
+          />
+        </motion.div>
+
+        {/* Main two-column layout: photo + text */}
+        <div className="mt-16 grid gap-12 lg:grid-cols-2 lg:gap-20 xl:gap-24">
+
+          {/* Photo column */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="space-y-6"
+            transition={{ duration: 0.8, ease: EASE }}
+            className="relative"
           >
-            <div className="space-y-4 rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10">
-              <p className="text-justify text-lg leading-8 text-night dark:text-white">
-                {t.about.paragraphs[0]}
-              </p>
-              <p className="text-justify text-base leading-7 text-night/65 dark:text-white/70">
-                {t.about.paragraphs[1]}
-              </p>
-              <p className="border-l-3 border-gold pl-5 text-justify text-base font-medium leading-7 text-night dark:text-white/90">
-                {t.about.highlight}
-              </p>
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-xl">
+              <Image
+                src={sitePhotos.about.src}
+                alt={sitePhotos.about.alt}
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              {/* Gold caption bar */}
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-night/80 to-transparent p-6">
+                <p className="font-display text-sm font-medium italic text-gold">
+                  {sitePhotos.about.caption}
+                </p>
+              </div>
             </div>
+            {/* Decorative frame */}
+            <div
+              className="pointer-events-none absolute -bottom-3 -right-3 -z-10 h-full w-full rounded-2xl border-2 border-gold/20"
+              aria-hidden
+            />
           </motion.div>
 
+          {/* Text column */}
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="space-y-6"
+            transition={{ duration: 0.8, ease: EASE, delay: 0.1 }}
+            className="space-y-8"
           >
-            <div className="rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10">
-              <h3 className="text-xs font-bold uppercase tracking-widest text-institutional dark:text-gold">
-                {t.about.valuesTitle}
-              </h3>
-              <ul className="mt-7 grid gap-4">
-                {t.about.values.map((value) => (
-                  <li key={value} className="flex items-center gap-3.5">
-                    <span className="h-2 w-2 rounded-full bg-gradient-to-r from-gold to-gold/70" />
-                    <span className="text-sm font-medium text-night dark:text-white/90">{value}</span>
-                  </li>
-                ))}
-              </ul>
+            {/* Paragraphs */}
+            <div className="space-y-5">
+              <p className="text-lg leading-[1.85] text-night">
+                {t.about.paragraphs[0]}
+              </p>
+              <p className="text-base leading-[1.85] text-night/70">
+                {t.about.paragraphs[1]}
+              </p>
             </div>
 
-            <div className="rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10">
-              <h3 className="text-xs font-bold uppercase tracking-widest text-institutional dark:text-gold">
+            {/* Highlighted quote */}
+            <blockquote className="border-l-4 border-gold pl-6">
+              <p className="font-display text-base italic leading-relaxed text-night/80 md:text-[1.05rem]">
+                &ldquo;{t.about.highlight}&rdquo;
+              </p>
+            </blockquote>
+
+            {/* Stats row */}
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+              {t.about.stats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="rounded-xl border border-night/8 bg-cream px-4 py-4 text-center"
+                >
+                  <p className="font-display text-2xl font-bold text-navy">{stat.value}</p>
+                  <p className="mt-1 text-xs text-night/55">{stat.label}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* Core expertise tags */}
+            <div>
+              <p className="mb-3 text-xs font-bold uppercase tracking-widest text-gold">
                 {t.about.expertiseTitle}
-              </h3>
-              <div className="mt-7 space-y-2.5">
-                {t.about.expertiseItems.map((expertise) => (
-                  <div
-                    key={expertise}
-                    className="flex items-center gap-3 rounded-lg border border-night/5 bg-night/[0.02] px-4 py-3 transition-all hover:border-gold/30 hover:bg-gold/5 dark:border-white/8 dark:bg-white/[0.02] dark:hover:bg-gold/10"
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {t.about.expertiseItems.map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full border border-navy/15 bg-navy/5 px-4 py-1.5 text-xs font-medium text-navy"
                   >
-                    <span className="h-1.5 w-1.5 rounded-full bg-institutional dark:bg-gold" />
-                    <span className="text-sm text-night/75 dark:text-white/80">{expertise}</span>
-                  </div>
+                    {item}
+                  </span>
                 ))}
               </div>
             </div>
           </motion.div>
         </div>
 
+        {/* Values section — full width, airy */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-16 rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10"
+          transition={{ duration: 0.8, ease: EASE, delay: 0.1 }}
+          className="mt-24"
         >
-          <div className="mb-8">
-            <h3 className="text-xs font-bold uppercase tracking-widest text-institutional dark:text-gold">
-              {t.about.domainTitle}
-            </h3>
-            <p className="mt-3 text-sm text-night/60 dark:text-white/60">
-              {t.about.timelineIntro}
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-2.5">
-            {t.about.domains.map((domain) => (
-              <span
-                key={domain}
-                className="inline-block rounded-full border border-night/10 bg-night/[0.02] px-4 py-2 text-xs font-medium text-night/70 transition-colors hover:border-institutional/30 hover:text-institutional dark:border-white/10 dark:bg-white/[0.02] dark:text-white/70 dark:hover:text-gold"
-              >
-                {domain}
-              </span>
-            ))}
+          <p className="mb-10 text-center text-xs font-bold uppercase tracking-widest text-gold">
+            {t.about.valuesTitle}
+          </p>
+          <div className="grid gap-6 sm:grid-cols-3">
+            {t.about.values.map((value, i) => {
+              const [title, ...rest] = value.split(" — ");
+              return (
+                <div
+                  key={value}
+                  className="group rounded-2xl border border-night/8 bg-white p-8 shadow-sm transition-all duration-300 hover:border-gold/30 hover:shadow-md"
+                >
+                  <div className="mb-4 text-3xl">{valueIcons[i]}</div>
+                  <h3 className="font-display text-lg font-bold text-navy">{title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-night/60">{rest.join(" — ")}</p>
+                </div>
+              );
+            })}
           </div>
         </motion.div>
-
-
       </div>
     </section>
   );
 }
-

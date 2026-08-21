@@ -24,9 +24,9 @@ export default function Home() {
         <Hero />
         <About />
         <Expertise />
-        <Career />
-        <Impact />
         <PhotoMoments />
+        <Impact />
+        <Career />
         <Services />
         <InterventionMap />
         <Contact />
