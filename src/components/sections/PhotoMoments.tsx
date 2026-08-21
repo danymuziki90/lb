@@ -117,8 +117,6 @@ export default function PhotoMoments() {
           </motion.div>
         </div>
 
-        </div>
-
         {/* Suite de la galerie (sans nouvelle section) */}
         <div className="columns-1 gap-4 sm:columns-2 md:columns-3 lg:gap-6 mt-6 md:mt-8">
           {visitePhotos.map((photo, i) => (
