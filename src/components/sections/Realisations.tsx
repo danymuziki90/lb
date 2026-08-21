@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { MotionConfig, motion } from "framer-motion";
 import { HiArrowUpRight } from "react-icons/hi2";
 
 export type Realisation = {
@@ -70,7 +70,8 @@ export default function Realisations({
   if (!featuredProject) return null;
 
   return (
-    <section id="realisations" className="relative overflow-hidden bg-[#f6f8fb] py-20 dark:bg-night md:py-28">
+    <MotionConfig reducedMotion="user">
+      <section id="realisations" className="relative overflow-hidden bg-[#f6f8fb] py-20 dark:bg-night md:py-28">
       <div aria-hidden="true" className="absolute left-0 top-20 h-80 w-80 -translate-x-1/2 rounded-full bg-institutional/[0.06] blur-3xl dark:bg-gold/[0.05]" />
       <div className="relative mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
         <motion.div
@@ -114,7 +115,7 @@ export default function Realisations({
               ))}
             </div>
             {featuredProject.href && (
-              <a href={featuredProject.href} target="_blank" rel="noreferrer" className="mt-10 inline-flex w-fit items-center gap-2 text-sm font-bold text-institutional transition-colors hover:text-gold dark:text-gold">
+              <a href={featuredProject.href} target="_blank" rel="noreferrer" className="mt-10 inline-flex w-fit items-center gap-2 rounded-md text-sm font-bold text-institutional transition-colors hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-4 dark:text-gold dark:focus-visible:ring-offset-night">
                 {viewProjectLabel}<HiArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
               </a>
             )}
@@ -140,9 +141,9 @@ export default function Realisations({
                     <span>{project.category}</span>{project.year && <span className="text-night/40 dark:text-white/40">{project.year}</span>}
                   </div>
                   <h3 className="mt-4 font-display text-xl font-bold text-night dark:text-white">{project.title}</h3>
-                  <p className="mt-3 line-clamp-2 text-sm leading-6 text-night/60 dark:text-white/60">{project.description}</p>
+                  <p className="mt-3 text-sm leading-6 text-night/60 dark:text-white/60">{project.description}</p>
                   {project.href && (
-                    <a href={project.href} target="_blank" rel="noreferrer" aria-label={`${viewProjectLabel} : ${project.title}`} className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-night transition-colors hover:text-institutional dark:text-white dark:hover:text-gold">
+                    <a href={project.href} target="_blank" rel="noreferrer" aria-label={`${viewProjectLabel} : ${project.title}`} className="mt-5 inline-flex items-center gap-2 rounded-md text-sm font-bold text-night transition-colors hover:text-institutional focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-4 dark:text-white dark:hover:text-gold dark:focus-visible:ring-offset-night">
                       {viewProjectLabel}<HiArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                     </a>
                   )}
@@ -152,6 +153,7 @@ export default function Realisations({
           </div>
         )}
       </div>
-    </section>
+      </section>
+    </MotionConfig>
   );
 }
