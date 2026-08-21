@@ -57,6 +57,44 @@ export const sitePhotos = {
   },
 } satisfies Record<string, SitePhoto>;
 
+export const visitePhotos: SitePhoto[] = [
+  {
+    src: "/images/visite_Ug_DRC-17.jpg",
+    alt: "Visite Ouganda-RDC 17",
+    caption: "Mission diplomatique Ouganda-RDC",
+  },
+  {
+    src: "/images/visite_Ug_DRC-18.jpg",
+    alt: "Visite Ouganda-RDC 18",
+    caption: "Rencontres bilatérales",
+  },
+  {
+    src: "/images/visite_Ug_DRC-19.jpg",
+    alt: "Visite Ouganda-RDC 19",
+    caption: "Échanges stratégiques",
+  },
+  {
+    src: "/images/visite_Ug_DRC-4.jpg",
+    alt: "Visite Ouganda-RDC 4",
+    caption: "Dialogue institutionnel",
+  },
+  {
+    src: "/images/visite_Ug_DRC-71 equipe.jpg",
+    alt: "Équipe Visite Ouganda-RDC",
+    caption: "Photo d'équipe de la délégation",
+  },
+  {
+    src: "/images/visite_Ug_DRC-75.jpg",
+    alt: "Visite Ouganda-RDC 75",
+    caption: "Discussions de haut niveau",
+  },
+  {
+    src: "/images/visite_Ug_DRC-8.jpg",
+    alt: "Visite Ouganda-RDC 8",
+    caption: "Engagement régional",
+  },
+];
+
 export const identityDomains = [
   "Diplomatie publique",
   "Communication stratégique",
