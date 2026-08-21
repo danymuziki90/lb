@@ -1,5 +1,5 @@
 import { footerQuote, navLinks, siteConfig } from "@/lib/data";
-import { FaLinkedin, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -26,6 +26,13 @@ export default function Footer() {
               >
                 <FaEnvelope className="text-gold" />
                 {siteConfig.email}
+              </a>
+              <a
+                href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`}
+                className="flex items-center gap-2 transition-colors hover:text-gold"
+              >
+                <FaPhone className="text-gold" />
+                {siteConfig.phone}
               </a>
               <span className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-gold" />

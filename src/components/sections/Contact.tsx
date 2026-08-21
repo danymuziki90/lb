@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
   FaCalendarAlt,
   FaPaperPlane,
+  FaPhone,
 } from "react-icons/fa";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { useLanguage } from "@/components/layout/LanguageProvider";
@@ -83,6 +84,20 @@ export default function Contact() {
                     <div>
                       <p className="text-xs text-white/50">{t.contact.emailLabel}</p>
                       <p className="text-sm font-medium">{siteConfig.email}</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={`tel:${siteConfig.phone.replace(/\s+/g, '')}`}
+                    className="flex items-center gap-4 transition-colors hover:text-gold"
+                  >
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
+                      <FaPhone />
+                    </span>
+                    <div>
+                      <p className="text-xs text-white/50">Téléphone</p>
+                      <p className="text-sm font-medium">{siteConfig.phone}</p>
                     </div>
                   </a>
                 </li>

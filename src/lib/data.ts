@@ -19,7 +19,8 @@ import { HiOutlineAcademicCap } from "react-icons/hi2";
 export const siteConfig = {
   name: "Linda J. Bauma",
   title: "Conseillère Stratégique et Diplomatique",
-  email: "contact@lindajbauma.com",
+  email: "lindajoelle1109@gmail.com",
+  phone: "+243 816 860 870",
   linkedin: "https://www.linkedin.com/in/linda-j-bauma-60b3ab159/",
   calendly: "https://calendly.com/lindajbauma",
   location: "Kinshasa, RDC",
