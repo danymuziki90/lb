@@ -1,1 +1,74 @@
-{"data":"QGltcG9ydCAidGFpbHdpbmRjc3MiOwoKOnJvb3QgewogIC0tbmlnaHQ6ICMwZjE3MmE7CiAgLS1uYXZ5OiAjMGIxZjNhOwogIC0taW5zdGl0dXRpb25hbDogIzFlM2E4YTsKICAtLWdvbGQ6ICNjOGE5NmI7CiAgLS1nb2xkLWxpZ2h0OiAjZDRiODdhOwogIC0tbGlnaHQ6ICNmM2Y0ZjY7CiAgLS13aGl0ZTogI2ZmZmZmZjsKICAtLWJhY2tncm91bmQ6IHZhcigtLXdoaXRlKTsKICAtLWZvcmVncm91bmQ6IHZhcigtLW5pZ2h0KTsKfQoKLmRhcmsgewogIC0tYmFja2dyb3VuZDogdmFyKC0tbmlnaHQpOwogIC0tZm9yZWdyb3VuZDogdmFyKC0td2hpdGUpOwp9CgpAdGhlbWUgaW5saW5lIHsKICAtLWNvbG9yLW5pZ2h0OiB2YXIoLS1uaWdodCk7CiAgLS1jb2xvci1uYXZ5OiB2YXIoLS1uYXZ5KTsKICAtLWNvbG9yLWluc3RpdHV0aW9uYWw6IHZhcigtLWluc3RpdHV0aW9uYWwpOwogIC0tY29sb3ItaW5zdGl0dXRpb25hbC1saWdodDogIzI1NjNlYjsKICAtLWNvbG9yLWdvbGQ6IHZhcigtLWdvbGQpOwogIC0tY29sb3ItZ29sZC1saWdodDogdmFyKC0tZ29sZC1saWdodCk7CiAgLS1jb2xvci1saWdodDogdmFyKC0tbGlnaHQpOwogIC0tY29sb3ItYmFja2dyb3VuZDogdmFyKC0tYmFja2dyb3VuZCk7CiAgLS1jb2xvci1mb3JlZ3JvdW5kOiB2YXIoLS1mb3JlZ3JvdW5kKTsKICAtLWZvbnQtc2FuczogdmFyKC0tZm9udC1pbnRlcik7CiAgLS1mb250LWRpc3BsYXk6IHZhcigtLWZvbnQtcGxheWZhaXIpOwp9CgpodG1sIHsKICBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDsKfQoKYm9keSB7CiAgYmFja2dyb3VuZDogdmFyKC0tYmFja2dyb3VuZCk7CiAgY29sb3I6IHZhcigtLWZvcmVncm91bmQpOwogIGZvbnQtZmFtaWx5OiB2YXIoLS1mb250LWludGVyKSwgc3lzdGVtLXVpLCBzYW5zLXNlcmlmOwp9Cgo6OnNlbGVjdGlvbiB7CiAgYmFja2dyb3VuZC1jb2xvcjogI2M4YTk2YjsKICBjb2xvcjogIzBiMWYzYTsKfQoKOmZvY3VzLXZpc2libGUgewogIG91dGxpbmU6IDJweCBzb2xpZCAjYzhhOTZiOwogIG91dGxpbmUtb2Zmc2V0OiAycHg7Cn0KCi8qIEN1c3RvbSBzY3JvbGxiYXIgKi8KOjotd2Via2l0LXNjcm9sbGJhciB7CiAgd2lkdGg6IDhweDsKfQoKOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7CiAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpOwp9CgouZGFyayA6Oi13ZWJraXQtc2Nyb2xsYmFyLXRyYWNrIHsKICBiYWNrZ3JvdW5kOiAjMWEyMzMyOwp9Cgo6Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iIHsKICBiYWNrZ3JvdW5kOiB2YXIoLS1pbnN0aXR1dGlvbmFsKTsKICBib3JkZXItcmFkaXVzOiA0cHg7Cn0KCjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWI6aG92ZXIgewogIGJhY2tncm91bmQ6IHZhcigtLWdvbGQpOwp9Cg=="}
+@import "tailwindcss";
+
+:root {
+  --night: #0f172a;
+  --navy: #0b1f3a;
+  --institutional: #1e3a8a;
+  --gold: #c8a96b;
+  --gold-light: #d4b87a;
+  --light: #f3f4f6;
+  --white: #ffffff;
+  --background: var(--white);
+  --foreground: var(--night);
+}
+
+.dark {
+  --background: var(--night);
+  --foreground: var(--white);
+}
+
+@theme inline {
+  --color-night: var(--night);
+  --color-navy: var(--navy);
+  --color-institutional: var(--institutional);
+  --color-institutional-light: #2563eb;
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-light: var(--light);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background-color: #c8a96b;
+  color: #0b1f3a;
+}
+
+:focus-visible {
+  outline: 2px solid #c8a96b;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1a2332;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--institutional);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}

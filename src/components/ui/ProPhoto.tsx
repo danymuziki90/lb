@@ -1,1 +1,63 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwppbXBvcnQgeyBtb3Rpb24gfSBmcm9tICJmcmFtZXItbW90aW9uIjsKCmludGVyZmFjZSBQcm9QaG90b1Byb3BzIHsKICBzcmM6IHN0cmluZzsKICBhbHQ6IHN0cmluZzsKICBjYXB0aW9uPzogc3RyaW5nOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBhc3BlY3Q/OiAicG9ydHJhaXQiIHwgImxhbmRzY2FwZSIgfCAic3F1YXJlIjsKICBwcmlvcml0eT86IGJvb2xlYW47CiAgc2l6ZXM/OiBzdHJpbmc7Cn0KCmNvbnN0IGFzcGVjdE1hcCA9IHsKICBwb3J0cmFpdDogImFzcGVjdC1bNC81XSIsCiAgbGFuZHNjYXBlOiAiYXNwZWN0LVsxNi8xMF0iLAogIHNxdWFyZTogImFzcGVjdC1zcXVhcmUiLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvUGhvdG8oewogIHNyYywKICBhbHQsCiAgY2FwdGlvbiwKICBjbGFzc05hbWUgPSAiIiwKICBhc3BlY3QgPSAicG9ydHJhaXQiLAogIHByaW9yaXR5ID0gZmFsc2UsCiAgc2l6ZXMgPSAiKG1heC13aWR0aDogNzY4cHgpIDEwMHZ3LCA1MHZ3IiwKfTogUHJvUGhvdG9Qcm9wcykgewogIHJldHVybiAoCiAgICA8bW90aW9uLmZpZ3VyZQogICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDI0IH19CiAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHk6IDAgfX0KICAgICAgdmlld3BvcnQ9e3sgb25jZTogdHJ1ZSwgbWFyZ2luOiAiLTYwcHgiIH19CiAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNywgZWFzZTogWzAuMjIsIDEsIDAuMzYsIDFdIH19CiAgICAgIGNsYXNzTmFtZT17YGdyb3VwIHJlbGF0aXZlICR7Y2xhc3NOYW1lfWB9CiAgICA+CiAgICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIC1pbnNldC0yIHJvdW5kZWQtWzEuNnJlbV0gYm9yZGVyIGJvcmRlci1nb2xkLzE1IHRyYW5zaXRpb24tY29sb3JzIGR1cmF0aW9uLTUwMCBncm91cC1ob3Zlcjpib3JkZXItZ29sZC8zNSIKICAgICAgICBhcmlhLWhpZGRlbgogICAgICAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtMnhsIGJvcmRlci0yIGJvcmRlci1nb2xkLzYwIHNoYWRvdy14bCBzaGFkb3ctbmlnaHQvMTAgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tNTAwIGdyb3VwLWhvdmVyOnNjYWxlLVsxLjAxXSBkYXJrOnNoYWRvdy1ibGFjay8zMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2ByZWxhdGl2ZSB3LWZ1bGwgJHthc3BlY3RNYXBbYXNwZWN0XX1gfT4KICAgICAgICAgIDxJbWFnZQogICAgICAgICAgICBzcmM9e3NyY30KICAgICAgICAgICAgYWx0PXthbHR9CiAgICAgICAgICAgIGZpbGwKICAgICAgICAgICAgcHJpb3JpdHk9e3ByaW9yaXR5fQogICAgICAgICAgICBjbGFzc05hbWU9Im9iamVjdC1jb3ZlciB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi03MDAgZ3JvdXAtaG92ZXI6c2NhbGUtMTA1IgogICAgICAgICAgICBzaXplcz17c2l6ZXN9CiAgICAgICAgICAvPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctZ3JhZGllbnQtdG8tdCBmcm9tLW5pZ2h0LzI1IHZpYS10cmFuc3BhcmVudCB0by10cmFuc3BhcmVudCBvcGFjaXR5LTAgdHJhbnNpdGlvbi1vcGFjaXR5IGR1cmF0aW9uLTUwMCBncm91cC1ob3ZlcjpvcGFjaXR5LTEwMCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIHtjYXB0aW9uICYmICgKICAgICAgICA8ZmlnY2FwdGlvbiBjbGFzc05hbWU9Im10LTMgdGV4dC1jZW50ZXIgdGV4dC14cyBmb250LW1lZGl1bSB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtbmlnaHQvNTAgZGFyazp0ZXh0LXdoaXRlLzUwIj4KICAgICAgICAgIHtjYXB0aW9ufQogICAgICAgIDwvZmlnY2FwdGlvbj4KICAgICAgKX0KICAgIDwvbW90aW9uLmZpZ3VyZT4KICApOwp9Cg=="}
+"use client";
+
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+interface ProPhotoProps {
+  src: string;
+  alt: string;
+  caption?: string;
+  className?: string;
+  aspect?: "portrait" | "landscape" | "square";
+  priority?: boolean;
+  sizes?: string;
+}
+
+const aspectMap = {
+  portrait: "aspect-[4/5]",
+  landscape: "aspect-[16/10]",
+  square: "aspect-square",
+};
+
+export default function ProPhoto({
+  src,
+  alt,
+  caption,
+  className = "",
+  aspect = "portrait",
+  priority = false,
+  sizes = "(max-width: 768px) 100vw, 50vw",
+}: ProPhotoProps) {
+  return (
+    <motion.figure
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-60px" }}
+      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+      className={`group relative ${className}`}
+    >
+      <div
+        className="absolute -inset-2 rounded-[1.6rem] border border-gold/15 transition-colors duration-500 group-hover:border-gold/35"
+        aria-hidden
+      />
+      <div className="relative overflow-hidden rounded-2xl border-2 border-gold/60 shadow-xl shadow-night/10 transition-transform duration-500 group-hover:scale-[1.01] dark:shadow-black/30">
+        <div className={`relative w-full ${aspectMap[aspect]}`}>
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            priority={priority}
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+            sizes={sizes}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-night/25 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+        </div>
+      </div>
+      {caption && (
+        <figcaption className="mt-3 text-center text-xs font-medium uppercase tracking-widest text-night/50 dark:text-white/50">
+          {caption}
+        </figcaption>
+      )}
+    </motion.figure>
+  );
+}

@@ -1,1 +1,111 @@
-{"data":"aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSwgVmlld3BvcnQgfSBmcm9tICJuZXh0IjsKaW1wb3J0IHsgUGxheWZhaXJfRGlzcGxheSwgSW50ZXIgfSBmcm9tICJuZXh0L2ZvbnQvZ29vZ2xlIjsKaW1wb3J0IFRoZW1lUHJvdmlkZXIgZnJvbSAiQC9jb21wb25lbnRzL2xheW91dC9UaGVtZVByb3ZpZGVyIjsKaW1wb3J0IHsgTGFuZ3VhZ2VQcm92aWRlciB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvTGFuZ3VhZ2VQcm92aWRlciI7CmltcG9ydCBKc29uTGQgZnJvbSAiQC9jb21wb25lbnRzL3Nlby9Kc29uTGQiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwoKY29uc3QgcGxheWZhaXIgPSBQbGF5ZmFpcl9EaXNwbGF5KHsKICB2YXJpYWJsZTogIi0tZm9udC1wbGF5ZmFpciIsCiAgc3Vic2V0czogWyJsYXRpbiJdLAogIGRpc3BsYXk6ICJzd2FwIiwKfSk7Cgpjb25zdCBpbnRlciA9IEludGVyKHsKICB2YXJpYWJsZTogIi0tZm9udC1pbnRlciIsCiAgc3Vic2V0czogWyJsYXRpbiJdLAogIGRpc3BsYXk6ICJzd2FwIiwKfSk7CgpleHBvcnQgY29uc3Qgdmlld3BvcnQ6IFZpZXdwb3J0ID0gewogIHRoZW1lQ29sb3I6IFsKICAgIHsgbWVkaWE6ICIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIsIGNvbG9yOiAiIzBGMTcyQSIgfSwKICAgIHsgbWVkaWE6ICIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIiwgY29sb3I6ICIjMEYxNzJBIiB9LAogIF0sCiAgd2lkdGg6ICJkZXZpY2Utd2lkdGgiLAogIGluaXRpYWxTY2FsZTogMSwKfTsKCmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7CiAgbWV0YWRhdGFCYXNlOiBuZXcgVVJMKCJodHRwczovL2xpbmRhamJhdW1hLmNvbSIpLAogIHRpdGxlOiB7CiAgICBkZWZhdWx0OgogICAgICAiTGluZGEgSi4gQmF1bWEgfCBDb25zZWlsbMOocmUgU3RyYXTDqWdpcXVlIGV0IERpcGxvbWF0aXF1ZSIsCiAgICB0ZW1wbGF0ZTogIiVzIHwgTGluZGEgSi4gQmF1bWEiLAogIH0sCiAgZGVzY3JpcHRpb246CiAgICAiQ29uc2VpbGzDqHJlIHN0cmF0w6lnaXF1ZSBldCBkaXBsb21hdGlxdWUsIGV4cGVydGUgZW4gZGlwbG9tYXRpZSBwdWJsaXF1ZSwgY29tbXVuaWNhdGlvbiBkZSBjcmlzZSwgZ291dmVybmFuY2UsIMOpZ2FsaXTDqSBkZSBnZW5yZSBldCBsb2NhbGlzYXRpb24gZGUgbCdhaWRlIGh1bWFuaXRhaXJlIGVuIEFmcmlxdWUgY2VudHJhbGUgZXQgYXUgU2FoZWwuIiwKICBrZXl3b3JkczogWwogICAgIkxpbmRhIEouIEJhdW1hIiwKICAgICJkaXBsb21hdGllIHB1YmxpcXVlIiwKICAgICJjb21tdW5pY2F0aW9uIGRlIGNyaXNlIiwKICAgICJnb3V2ZXJuYW5jZSIsCiAgICAiw6lnYWxpdMOpIGRlIGdlbnJlIiwKICAgICJkcm9pdHMgaHVtYWlucyIsCiAgICAiYWlkZSBodW1hbml0YWlyZSIsCiAgICAiQWZyaXF1ZSBjZW50cmFsZSIsCiAgICAiU2FoZWwiLAogICAgIlJEQyIsCiAgICAiY29uc2VpbCBzdHJhdMOpZ2lxdWUiLAogICAgImxlYWRlcnNoaXAgZsOpbWluaW4iLAogIF0sCiAgYXV0aG9yczogW3sgbmFtZTogIkxpbmRhIEouIEJhdW1hIiB9XSwKICBjcmVhdG9yOiAiTGluZGEgSi4gQmF1bWEiLAogIG9wZW5HcmFwaDogewogICAgdHlwZTogIndlYnNpdGUiLAogICAgbG9jYWxlOiAiZnJfRlIiLAogICAgdXJsOiAiaHR0cHM6Ly9saW5kYWpiYXVtYS5jb20iLAogICAgc2l0ZU5hbWU6ICJMaW5kYSBKLiBCYXVtYSIsCiAgICB0aXRsZTogIkxpbmRhIEouIEJhdW1hIHwgQ29uc2VpbGzDqHJlIFN0cmF0w6lnaXF1ZSBldCBEaXBsb21hdGlxdWUiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJFeHBlcnRlIGludGVybmF0aW9uYWxlIGVuIGRpcGxvbWF0aWUgcHVibGlxdWUsIGNvbW11bmljYXRpb24gZGUgY3Jpc2UsIGdvdXZlcm5hbmNlIGV0IGxvY2FsaXNhdGlvbiBkZSBsJ2FpZGUgaHVtYW5pdGFpcmUuIiwKICAgIGltYWdlczogWwogICAgICB7CiAgICAgICAgdXJsOiAiL2ltYWdlcy9vZy1pbWFnZS5zdmciLAogICAgICAgIHdpZHRoOiAxMjAwLAogICAgICAgIGhlaWdodDogNjMwLAogICAgICAgIGFsdDogIkxpbmRhIEouIEJhdW1hIC0gQ29uc2VpbGzDqHJlIFN0cmF0w6lnaXF1ZSBldCBEaXBsb21hdGlxdWUiLAogICAgICB9LAogICAgXSwKICB9LAogIHR3aXR0ZXI6IHsKICAgIGNhcmQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiwKICAgIHRpdGxlOiAiTGluZGEgSi4gQmF1bWEgfCBDb25zZWlsbMOocmUgU3RyYXTDqWdpcXVlIGV0IERpcGxvbWF0aXF1ZSIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIkV4cGVydGUgZW4gZGlwbG9tYXRpZSBwdWJsaXF1ZSwgZ291dmVybmFuY2UgZXQgYWN0aW9uIGh1bWFuaXRhaXJlIGVuIEFmcmlxdWUgY2VudHJhbGUgZXQgYXUgU2FoZWwuIiwKICAgIGltYWdlczogWyIvaW1hZ2VzL29nLWltYWdlLnN2ZyJdLAogIH0sCiAgcm9ib3RzOiB7CiAgICBpbmRleDogdHJ1ZSwKICAgIGZvbGxvdzogdHJ1ZSwKICAgIGdvb2dsZUJvdDogewogICAgICBpbmRleDogdHJ1ZSwKICAgICAgZm9sbG93OiB0cnVlLAogICAgICAibWF4LXZpZGVvLXByZXZpZXciOiAtMSwKICAgICAgIm1heC1pbWFnZS1wcmV2aWV3IjogImxhcmdlIiwKICAgICAgIm1heC1zbmlwcGV0IjogLTEsCiAgICB9LAogIH0sCiAgYWx0ZXJuYXRlczogewogICAgY2Fub25pY2FsOiAiaHR0cHM6Ly9saW5kYWpiYXVtYS5jb20iLAogIH0sCn07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHsKICBjaGlsZHJlbiwKfTogUmVhZG9ubHk8ewogIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7Cn0+KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImZyIiBzdXBwcmVzc0h5ZHJhdGlvbldhcm5pbmcgY2xhc3NOYW1lPSJzY3JvbGwtc21vb3RoIj4KICAgICAgPGJvZHkKICAgICAgICBjbGFzc05hbWU9e2Ake3BsYXlmYWlyLnZhcmlhYmxlfSAke2ludGVyLnZhcmlhYmxlfSBtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCBmb250LXNhbnMgdGV4dC1mb3JlZ3JvdW5kIGFudGlhbGlhc2VkYH0KICAgICAgPgogICAgICAgIDxKc29uTGQgLz4KICAgICAgICA8VGhlbWVQcm92aWRlcj4KICAgICAgICAgIDxMYW5ndWFnZVByb3ZpZGVyPntjaGlsZHJlbn08L0xhbmd1YWdlUHJvdmlkZXI+CiAgICAgICAgPC9UaGVtZVByb3ZpZGVyPgogICAgICA8L2JvZHk+CiAgICA8L2h0bWw+CiAgKTsKfQo="}
+import type { Metadata, Viewport } from "next";
+import { Playfair_Display, Inter } from "next/font/google";
+import ThemeProvider from "@/components/layout/ThemeProvider";
+import { LanguageProvider } from "@/components/layout/LanguageProvider";
+import JsonLd from "@/components/seo/JsonLd";
+import "./globals.css";
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#0F172A" },
+    { media: "(prefers-color-scheme: dark)", color: "#0F172A" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+};
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://lindajbauma.com"),
+  title: {
+    default:
+      "Linda J. Bauma | Conseillère Stratégique et Diplomatique",
+    template: "%s | Linda J. Bauma",
+  },
+  description:
+    "Conseillère stratégique et diplomatique, experte en diplomatie publique, communication de crise, gouvernance, égalité de genre et localisation de l'aide humanitaire en Afrique centrale et au Sahel.",
+  keywords: [
+    "Linda J. Bauma",
+    "diplomatie publique",
+    "communication de crise",
+    "gouvernance",
+    "égalité de genre",
+    "droits humains",
+    "aide humanitaire",
+    "Afrique centrale",
+    "Sahel",
+    "RDC",
+    "conseil stratégique",
+    "leadership féminin",
+  ],
+  authors: [{ name: "Linda J. Bauma" }],
+  creator: "Linda J. Bauma",
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://lindajbauma.com",
+    siteName: "Linda J. Bauma",
+    title: "Linda J. Bauma | Conseillère Stratégique et Diplomatique",
+    description:
+      "Experte internationale en diplomatie publique, communication de crise, gouvernance et localisation de l'aide humanitaire.",
+    images: [
+      {
+        url: "/images/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Linda J. Bauma - Conseillère Stratégique et Diplomatique",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Linda J. Bauma | Conseillère Stratégique et Diplomatique",
+    description:
+      "Experte en diplomatie publique, gouvernance et action humanitaire en Afrique centrale et au Sahel.",
+    images: ["/images/og-image.svg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://lindajbauma.com",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="fr" suppressHydrationWarning className="scroll-smooth">
+      <body
+        className={`${playfair.variable} ${inter.variable} min-h-screen bg-background font-sans text-foreground antialiased`}
+      >
+        <JsonLd />
+        <ThemeProvider>
+          <LanguageProvider>{children}</LanguageProvider>
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}

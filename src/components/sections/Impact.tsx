@@ -1,1 +1,57 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgbW90aW9uIH0gZnJvbSAiZnJhbWVyLW1vdGlvbiI7CmltcG9ydCBBbmltYXRlZENvdW50ZXIgZnJvbSAiQC9jb21wb25lbnRzL3VpL0FuaW1hdGVkQ291bnRlciI7CmltcG9ydCBTZWN0aW9uSGVhZGluZyBmcm9tICJAL2NvbXBvbmVudHMvdWkvU2VjdGlvbkhlYWRpbmciOwppbXBvcnQgeyB1c2VMYW5ndWFnZSB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvTGFuZ3VhZ2VQcm92aWRlciI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBJbXBhY3QoKSB7CiAgY29uc3QgeyB0IH0gPSB1c2VMYW5ndWFnZSgpOwoKICByZXR1cm4gKAogICAgPHNlY3Rpb24KICAgICAgaWQ9InJlYWxpc2F0aW9ucyIKICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4gYmctaW5zdGl0dXRpb25hbCBweS0yMCBtZDpweS0yOCIKICAgID4KICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgb3BhY2l0eS0xMCI+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgdy1mdWxsIgogICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgYmFja2dyb3VuZEltYWdlOgogICAgICAgICAgICAgICJyYWRpYWwtZ3JhZGllbnQoY2lyY2xlIGF0IDFweCAxcHgsIHdoaXRlIDFweCwgdHJhbnNwYXJlbnQgMCkiLAogICAgICAgICAgICBiYWNrZ3JvdW5kU2l6ZTogIjMycHggMzJweCIsCiAgICAgICAgICB9fQogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIG14LWF1dG8gbWF4LXctN3hsIHB4LTQgbWQ6cHgtOCBsZzpweC0xMiI+CiAgICAgICAgPFNlY3Rpb25IZWFkaW5nCiAgICAgICAgICBsYWJlbD17dC5pbXBhY3QubGFiZWx9CiAgICAgICAgICB0aXRsZT17dC5pbXBhY3QudGl0bGV9CiAgICAgICAgICBzdWJ0aXRsZT17dC5pbXBhY3Quc3VidGl0bGV9CiAgICAgICAgICBsaWdodAogICAgICAgIC8+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC00IG1kOmdyaWQtY29scy0zIG1kOmdhcC02IGxnOmdyaWQtY29scy02Ij4KICAgICAgICAgIHt0LmltcGFjdC5zdGF0cy5tYXAoKHN0YXQsIGluZGV4KSA9PiAoCiAgICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgICAga2V5PXtzdGF0LmxhYmVsfQogICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgc2NhbGU6IDAuOCB9fQogICAgICAgICAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHNjYWxlOiAxIH19CiAgICAgICAgICAgICAgdmlld3BvcnQ9e3sgb25jZTogdHJ1ZSB9fQogICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNSwgZGVsYXk6IGluZGV4ICogMC4xIH19CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLXdoaXRlLzEwIGJnLXdoaXRlLzUgcC01IHRleHQtY2VudGVyIGJhY2tkcm9wLWJsdXItc20gbWQ6cC02IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgZm9udC1ib2xkIHRleHQtZ29sZCBtZDp0ZXh0LTR4bCI+CiAgICAgICAgICAgICAgICA8QW5pbWF0ZWRDb3VudGVyIHZhbHVlPXtzdGF0LnZhbHVlfSBzdWZmaXg9e3N0YXQuc3VmZml4fSAvPgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC14cyB0ZXh0LXdoaXRlLzcwIG1kOnRleHQtc20iPgogICAgICAgICAgICAgICAge3N0YXQubGFiZWx9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo="}
+"use client";
+
+import { motion } from "framer-motion";
+import AnimatedCounter from "@/components/ui/AnimatedCounter";
+import SectionHeading from "@/components/ui/SectionHeading";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+
+export default function Impact() {
+  const { t } = useLanguage();
+
+  return (
+    <section
+      id="realisations"
+      className="relative overflow-hidden bg-institutional py-20 md:py-28"
+    >
+      <div className="absolute inset-0 opacity-10">
+        <div
+          className="h-full w-full"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+            backgroundSize: "32px 32px",
+          }}
+        />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
+        <SectionHeading
+          label={t.impact.label}
+          title={t.impact.title}
+          subtitle={t.impact.subtitle}
+          light
+        />
+
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-6">
+          {t.impact.stats.map((stat, index) => (
+            <motion.div
+              key={stat.label}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="rounded-2xl border border-white/10 bg-white/5 p-5 text-center backdrop-blur-sm md:p-6"
+            >
+              <p className="font-display text-3xl font-bold text-gold md:text-4xl">
+                <AnimatedCounter value={stat.value} suffix={stat.suffix} />
+              </p>
+              <p className="mt-2 text-xs text-white/70 md:text-sm">
+                {stat.label}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

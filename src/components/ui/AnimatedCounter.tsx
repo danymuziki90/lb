@@ -1,1 +1,55 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VJblZpZXcgfSBmcm9tICJmcmFtZXItbW90aW9uIjsKCmludGVyZmFjZSBBbmltYXRlZENvdW50ZXJQcm9wcyB7CiAgdmFsdWU6IG51bWJlcjsKICBzdWZmaXg/OiBzdHJpbmc7CiAgZHVyYXRpb24/OiBudW1iZXI7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBbmltYXRlZENvdW50ZXIoewogIHZhbHVlLAogIHN1ZmZpeCA9ICIiLAogIGR1cmF0aW9uID0gMjAwMCwKICBjbGFzc05hbWUgPSAiIiwKfTogQW5pbWF0ZWRDb3VudGVyUHJvcHMpIHsKICBjb25zdCByZWYgPSB1c2VSZWY8SFRNTFNwYW5FbGVtZW50PihudWxsKTsKICBjb25zdCBpc0luVmlldyA9IHVzZUluVmlldyhyZWYsIHsgb25jZTogdHJ1ZSwgbWFyZ2luOiAiLTUwcHgiIH0pOwogIGNvbnN0IFtjb3VudCwgc2V0Q291bnRdID0gdXNlU3RhdGUoMCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWlzSW5WaWV3KSByZXR1cm47CgogICAgbGV0IHN0YXJ0VGltZTogbnVtYmVyOwogICAgbGV0IGFuaW1hdGlvbkZyYW1lOiBudW1iZXI7CgogICAgY29uc3QgYW5pbWF0ZSA9ICh0aW1lc3RhbXA6IG51bWJlcikgPT4gewogICAgICBpZiAoIXN0YXJ0VGltZSkgc3RhcnRUaW1lID0gdGltZXN0YW1wOwogICAgICBjb25zdCBwcm9ncmVzcyA9IE1hdGgubWluKCh0aW1lc3RhbXAgLSBzdGFydFRpbWUpIC8gZHVyYXRpb24sIDEpOwogICAgICBjb25zdCBlYXNlZCA9IDEgLSBNYXRoLnBvdygxIC0gcHJvZ3Jlc3MsIDMpOwogICAgICBzZXRDb3VudChNYXRoLmZsb29yKGVhc2VkICogdmFsdWUpKTsKCiAgICAgIGlmIChwcm9ncmVzcyA8IDEpIHsKICAgICAgICBhbmltYXRpb25GcmFtZSA9IHJlcXVlc3RBbmltYXRpb25GcmFtZShhbmltYXRlKTsKICAgICAgfQogICAgfTsKCiAgICBhbmltYXRpb25GcmFtZSA9IHJlcXVlc3RBbmltYXRpb25GcmFtZShhbmltYXRlKTsKICAgIHJldHVybiAoKSA9PiBjYW5jZWxBbmltYXRpb25GcmFtZShhbmltYXRpb25GcmFtZSk7CiAgfSwgW2lzSW5WaWV3LCB2YWx1ZSwgZHVyYXRpb25dKTsKCiAgY29uc3QgZGlzcGxheSA9CiAgICB2YWx1ZSA+PSAxMDAwICYmIGNvdW50ID49IDEwMDAKICAgICAgPyBgJHsoY291bnQgLyAxMDAwKS50b0ZpeGVkKGNvdW50ID49IHZhbHVlID8gMCA6IDEpfWtgCiAgICAgIDogY291bnQudG9TdHJpbmcoKTsKCiAgcmV0dXJuICgKICAgIDxzcGFuIHJlZj17cmVmfSBjbGFzc05hbWU9e2NsYXNzTmFtZX0+CiAgICAgIHtpc0luVmlldyA/IGRpc3BsYXkgOiAiMCJ9CiAgICAgIHtzdWZmaXh9CiAgICA8L3NwYW4+CiAgKTsKfQo="}
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import { useInView } from "framer-motion";
+
+interface AnimatedCounterProps {
+  value: number;
+  suffix?: string;
+  duration?: number;
+  className?: string;
+}
+
+export default function AnimatedCounter({
+  value,
+  suffix = "",
+  duration = 2000,
+  className = "",
+}: AnimatedCounterProps) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (!isInView) return;
+
+    let startTime: number;
+    let animationFrame: number;
+
+    const animate = (timestamp: number) => {
+      if (!startTime) startTime = timestamp;
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setCount(Math.floor(eased * value));
+
+      if (progress < 1) {
+        animationFrame = requestAnimationFrame(animate);
+      }
+    };
+
+    animationFrame = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationFrame);
+  }, [isInView, value, duration]);
+
+  const display =
+    value >= 1000 && count >= 1000
+      ? `${(count / 1000).toFixed(count >= value ? 0 : 1)}k`
+      : count.toString();
+
+  return (
+    <span ref={ref} className={className}>
+      {isInView ? display : "0"}
+      {suffix}
+    </span>
+  );
+}

@@ -1,1 +1,261 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUsIEZvcm1FdmVudCB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgbW90aW9uIH0gZnJvbSAiZnJhbWVyLW1vdGlvbiI7CmltcG9ydCBlbWFpbGpzIGZyb20gIkBlbWFpbGpzL2Jyb3dzZXIiOwppbXBvcnQgewogIEZhRW52ZWxvcGUsCiAgRmFMaW5rZWRpbiwKICBGYU1hcE1hcmtlckFsdCwKICBGYUNhbGVuZGFyQWx0LAogIEZhUGFwZXJQbGFuZSwKfSBmcm9tICJyZWFjdC1pY29ucy9mYSI7CmltcG9ydCBTZWN0aW9uSGVhZGluZyBmcm9tICJAL2NvbXBvbmVudHMvdWkvU2VjdGlvbkhlYWRpbmciOwppbXBvcnQgeyB1c2VMYW5ndWFnZSB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvTGFuZ3VhZ2VQcm92aWRlciI7CmltcG9ydCB7IHNpdGVDb25maWcgfSBmcm9tICJAL2xpYi9kYXRhIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENvbnRhY3QoKSB7CiAgY29uc3QgeyB0IH0gPSB1c2VMYW5ndWFnZSgpOwogIGNvbnN0IFtzdGF0dXMsIHNldFN0YXR1c10gPSB1c2VTdGF0ZTwKICAgICJpZGxlIiB8ICJsb2FkaW5nIiB8ICJzdWNjZXNzIiB8ICJlcnJvciIKICA+KCJpZGxlIik7CgogIGNvbnN0IGhhbmRsZVN1Ym1pdCA9IGFzeW5jIChlOiBGb3JtRXZlbnQ8SFRNTEZvcm1FbGVtZW50PikgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgc2V0U3RhdHVzKCJsb2FkaW5nIik7CgogICAgY29uc3QgZm9ybSA9IGUuY3VycmVudFRhcmdldDsKICAgIGNvbnN0IGZvcm1EYXRhID0gbmV3IEZvcm1EYXRhKGZvcm0pOwoKICAgIHRyeSB7CiAgICAgIGF3YWl0IGVtYWlsanMuc2VuZCgKICAgICAgICBwcm9jZXNzLmVudi5ORVhUX1BVQkxJQ19FTUFJTEpTX1NFUlZJQ0VfSUQgfHwgInNlcnZpY2VfcGxhY2Vob2xkZXIiLAogICAgICAgIHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX0VNQUlMSlNfVEVNUExBVEVfSUQgfHwgInRlbXBsYXRlX3BsYWNlaG9sZGVyIiwKICAgICAgICB7CiAgICAgICAgICBmcm9tX25hbWU6IGZvcm1EYXRhLmdldCgibmFtZSIpLAogICAgICAgICAgZnJvbV9vcmdhbml6YXRpb246IGZvcm1EYXRhLmdldCgib3JnYW5pemF0aW9uIiksCiAgICAgICAgICBmcm9tX2VtYWlsOiBmb3JtRGF0YS5nZXQoImVtYWlsIiksCiAgICAgICAgICBzdWJqZWN0OiBmb3JtRGF0YS5nZXQoInN1YmplY3QiKSwKICAgICAgICAgIG1lc3NhZ2U6IGZvcm1EYXRhLmdldCgibWVzc2FnZSIpLAogICAgICAgIH0sCiAgICAgICAgcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfRU1BSUxKU19QVUJMSUNfS0VZIHx8ICJrZXlfcGxhY2Vob2xkZXIiCiAgICAgICk7CiAgICAgIHNldFN0YXR1cygic3VjY2VzcyIpOwogICAgICBmb3JtLnJlc2V0KCk7CiAgICB9IGNhdGNoIHsKICAgICAgc2V0U3RhdHVzKCJlcnJvciIpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBpZD0iY29udGFjdCIgY2xhc3NOYW1lPSJiZy13aGl0ZSBweS0yMCBkYXJrOmJnLW5pZ2h0IG1kOnB5LTI4Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctN3hsIHB4LTQgbWQ6cHgtOCBsZzpweC0xMiI+CiAgICAgICAgPFNlY3Rpb25IZWFkaW5nCiAgICAgICAgICBsYWJlbD17dC5jb250YWN0LmxhYmVsfQogICAgICAgICAgdGl0bGU9e3QuY29udGFjdC50aXRsZX0KICAgICAgICAgIHN1YnRpdGxlPXt0LmNvbnRhY3Quc3VidGl0bGV9CiAgICAgICAgLz4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTEyIGxnOmdyaWQtY29scy01Ij4KICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeDogLTMwIH19CiAgICAgICAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHg6IDAgfX0KICAgICAgICAgICAgdmlld3BvcnQ9e3sgb25jZTogdHJ1ZSB9fQogICAgICAgICAgICBjbGFzc05hbWU9ImxnOmNvbC1zcGFuLTIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBiZy1ncmFkaWVudC10by1iciBmcm9tLW5pZ2h0IHRvLWluc3RpdHV0aW9uYWwgcC04IHRleHQtd2hpdGUgbWQ6cC0xMCI+CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIGZvbnQtYm9sZCI+CiAgICAgICAgICAgICAgICB7dC5jb250YWN0LmluZm9IZWFkaW5nfQogICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtd2hpdGUvNzAiPgogICAgICAgICAgICAgICAge3QuY29udGFjdC5pbmZvRGVzY3JpcHRpb259CiAgICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC04IHNwYWNlLXktNSI+CiAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICAgICAgaHJlZj17YG1haWx0bzoke3NpdGVDb25maWcuZW1haWx9YH0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtZ29sZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTEwIHctMTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctd2hpdGUvMTAiPgogICAgICAgICAgICAgICAgICAgICAgPEZhRW52ZWxvcGUgLz4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXdoaXRlLzUwIj57dC5jb250YWN0LmVtYWlsTGFiZWx9PC9wPgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj57c2l0ZUNvbmZpZy5lbWFpbH08L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTEwIHctMTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctd2hpdGUvMTAiPgogICAgICAgICAgICAgICAgICAgIDxGYU1hcE1hcmtlckFsdCAvPgogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtd2hpdGUvNTAiPnt0LmNvbnRhY3QubG9jYXRpb25MYWJlbH08L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj57dC5zaXRlQ29uZmlnLmxvY2F0aW9ufTwvcD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgICAgIGhyZWY9e3NpdGVDb25maWcubGlua2VkaW59CiAgICAgICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiCiAgICAgICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1nb2xkIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGgtMTAgdy0xMCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyBiZy13aGl0ZS8xMCI+CiAgICAgICAgICAgICAgICAgICAgICA8RmFMaW5rZWRpbiAvPgogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtd2hpdGUvNTAiPnt0LmNvbnRhY3QubGlua2VkaW5MYWJlbH08L3A+CiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0iPnt0LmNvbnRhY3QucHJvZmlsZUxhYmVsfTwvcD4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgIDxsaT4KICAgICAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgICAgICBocmVmPXtzaXRlQ29uZmlnLmNhbGVuZGx5fQogICAgICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00IHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOnRleHQtZ29sZCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTEwIHctMTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctd2hpdGUvMTAiPgogICAgICAgICAgICAgICAgICAgICAgPEZhQ2FsZW5kYXJBbHQgLz4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXdoaXRlLzUwIj57dC5jb250YWN0LmNhbGVuZGx5TGFiZWx9PC9wPgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj4KICAgICAgICAgICAgICAgICAgICAgICAge3QuY29udGFjdC5zY2hlZHVsZUJ1dHRvbn0KICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICA8L3VsPgoKICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj17c2l0ZUNvbmZpZy5jYWxlbmRseX0KICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtdC04IGlubGluZS1mbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBiZy1nb2xkIHB4LTYgcHktMy41IHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LW5pZ2h0IHRyYW5zaXRpb24tYWxsIGhvdmVyOmJnLWdvbGQtbGlnaHQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEZhQ2FsZW5kYXJBbHQgLz4KICAgICAgICAgICAgICAgIHt0LmNvbnRhY3Quc2NoZWR1bGVCdXR0b259CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvbW90aW9uLmRpdj4KCiAgICAgICAgICA8bW90aW9uLmZvcm0KICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB4OiAzMCB9fQogICAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB4OiAwIH19CiAgICAgICAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX0KICAgICAgICAgICAgb25TdWJtaXQ9e2hhbmRsZVN1Ym1pdH0KICAgICAgICAgICAgY2xhc3NOYW1lPSJsZzpjb2wtc3Bhbi0zIgogICAgICAgICAgPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1uaWdodC81IGJnLWxpZ2h0IHAtNiBkYXJrOmJvcmRlci13aGl0ZS8xMCBkYXJrOmJnLW5pZ2h0LzgwIG1kOnAtOCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTUgc206Z3JpZC1jb2xzLTIiPgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICAgICAgaHRtbEZvcj0ibmFtZSIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im1iLTEuNSBibG9jayB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtbmlnaHQgZGFyazp0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3QuY29udGFjdC5mb3JtLm5hbWV9CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICAgICAgaWQ9Im5hbWUiCiAgICAgICAgICAgICAgICAgICAgbmFtZT0ibmFtZSIKICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1uaWdodC8xMCBiZy13aGl0ZSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LW5pZ2h0IHRyYW5zaXRpb24tY29sb3JzIGZvY3VzOmJvcmRlci1pbnN0aXR1dGlvbmFsIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1pbnN0aXR1dGlvbmFsLzIwIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6YmctbmlnaHQgZGFyazp0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0LmNvbnRhY3QuZm9ybS5wbGFjZWhvbGRlcnMubmFtZX0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICAgICAgaHRtbEZvcj0ib3JnYW5pemF0aW9uIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWItMS41IGJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1uaWdodCBkYXJrOnRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7dC5jb250YWN0LmZvcm0ub3JnYW5pemF0aW9ufQogICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgICAgICAgIGlkPSJvcmdhbml6YXRpb24iCiAgICAgICAgICAgICAgICAgICAgbmFtZT0ib3JnYW5pemF0aW9uIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1uaWdodC8xMCBiZy13aGl0ZSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LW5pZ2h0IHRyYW5zaXRpb24tY29sb3JzIGZvY3VzOmJvcmRlci1pbnN0aXR1dGlvbmFsIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1pbnN0aXR1dGlvbmFsLzIwIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6YmctbmlnaHQgZGFyazp0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0LmNvbnRhY3QuZm9ybS5wbGFjZWhvbGRlcnMub3JnYW5pemF0aW9ufQogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic206Y29sLXNwYW4tMiI+CiAgICAgICAgICAgICAgICAgIDxsYWJlbAogICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9ImVtYWlsIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWItMS41IGJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1uaWdodCBkYXJrOnRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7dC5jb250YWN0LmZvcm0uZW1haWx9CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIHR5cGU9ImVtYWlsIgogICAgICAgICAgICAgICAgICAgIGlkPSJlbWFpbCIKICAgICAgICAgICAgICAgICAgICBuYW1lPSJlbWFpbCIKICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1uaWdodC8xMCBiZy13aGl0ZSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LW5pZ2h0IHRyYW5zaXRpb24tY29sb3JzIGZvY3VzOmJvcmRlci1pbnN0aXR1dGlvbmFsIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1pbnN0aXR1dGlvbmFsLzIwIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6YmctbmlnaHQgZGFyazp0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0LmNvbnRhY3QuZm9ybS5wbGFjZWhvbGRlcnMuZW1haWx9CiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzbTpjb2wtc3Bhbi0yIj4KICAgICAgICAgICAgICAgICAgPGxhYmVsCiAgICAgICAgICAgICAgICAgICAgaHRtbEZvcj0ic3ViamVjdCIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im1iLTEuNSBibG9jayB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtbmlnaHQgZGFyazp0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge3QuY29udGFjdC5mb3JtLnN1YmplY3R9CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICAgICAgaWQ9InN1YmplY3QiCiAgICAgICAgICAgICAgICAgICAgbmFtZT0ic3ViamVjdCIKICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1uaWdodC8xMCBiZy13aGl0ZSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LW5pZ2h0IHRyYW5zaXRpb24tY29sb3JzIGZvY3VzOmJvcmRlci1pbnN0aXR1dGlvbmFsIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1pbnN0aXR1dGlvbmFsLzIwIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6YmctbmlnaHQgZGFyazp0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPXt0LmNvbnRhY3QuZm9ybS5wbGFjZWhvbGRlcnMuc3ViamVjdH0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNtOmNvbC1zcGFuLTIiPgogICAgICAgICAgICAgICAgICA8bGFiZWwKICAgICAgICAgICAgICAgICAgICBodG1sRm9yPSJtZXNzYWdlIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWItMS41IGJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1uaWdodCBkYXJrOnRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7dC5jb250YWN0LmZvcm0ubWVzc2FnZX0KICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgICAgICAgaWQ9Im1lc3NhZ2UiCiAgICAgICAgICAgICAgICAgICAgbmFtZT0ibWVzc2FnZSIKICAgICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICAgIHJvd3M9ezV9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcmVzaXplLW5vbmUgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLW5pZ2h0LzEwIGJnLXdoaXRlIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtbmlnaHQgdHJhbnNpdGlvbi1jb2xvcnMgZm9jdXM6Ym9yZGVyLWluc3RpdHV0aW9uYWwgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLWluc3RpdHV0aW9uYWwvMjAgZGFyazpib3JkZXItd2hpdGUvMTAgZGFyazpiZy1uaWdodCBkYXJrOnRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9e3QuY29udGFjdC5mb3JtLnBsYWNlaG9sZGVycy5tZXNzYWdlfQogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIHR5cGU9InN1Ym1pdCIKICAgICAgICAgICAgICAgIGRpc2FibGVkPXtzdGF0dXMgPT09ICJsb2FkaW5nIn0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtNiBpbmxpbmUtZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbGcgYmctaW5zdGl0dXRpb25hbCBweC02IHB5LTMuNSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSB0cmFuc2l0aW9uLWFsbCBob3ZlcjpiZy1pbnN0aXR1dGlvbmFsLWxpZ2h0IGRpc2FibGVkOm9wYWNpdHktNjAgc206dy1hdXRvIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxGYVBhcGVyUGxhbmUgLz4KICAgICAgICAgICAgICAgIHtzdGF0dXMgPT09ICJsb2FkaW5nIiA/IHQuY29udGFjdC5mb3JtLnNlbmRpbmcgOiB0LmNvbnRhY3QuZm9ybS5zZW5kQnV0dG9ufQogICAgICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgICAgICB7c3RhdHVzID09PSAic3VjY2VzcyIgJiYgKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc20gdGV4dC1ncmVlbi02MDAgZGFyazp0ZXh0LWdyZWVuLTQwMCIgcm9sZT0ic3RhdHVzIj4KICAgICAgICAgICAgICAgICAge3QuY29udGFjdC5mb3JtLnN1Y2Nlc3N9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7c3RhdHVzID09PSAiZXJyb3IiICYmICgKICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LXNtIHRleHQtcmVkLTYwMCBkYXJrOnRleHQtcmVkLTQwMCIgcm9sZT0iYWxlcnQiPgogICAgICAgICAgICAgICAgICB7dC5jb250YWN0LmZvcm0uZXJyb3J9IHtzaXRlQ29uZmlnLmVtYWlsfS4KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvbW90aW9uLmZvcm0+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K"}
+"use client";
+
+import { useState, FormEvent } from "react";
+import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaMapMarkerAlt,
+  FaCalendarAlt,
+  FaPaperPlane,
+} from "react-icons/fa";
+import SectionHeading from "@/components/ui/SectionHeading";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+import { siteConfig } from "@/lib/data";
+
+export default function Contact() {
+  const { t } = useLanguage();
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus("loading");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_placeholder",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_placeholder",
+        {
+          from_name: formData.get("name"),
+          from_organization: formData.get("organization"),
+          from_email: formData.get("email"),
+          subject: formData.get("subject"),
+          message: formData.get("message"),
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "key_placeholder"
+      );
+      setStatus("success");
+      form.reset();
+    } catch {
+      setStatus("error");
+    }
+  };
+
+  return (
+    <section id="contact" className="bg-white py-20 dark:bg-night md:py-28">
+      <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
+        <SectionHeading
+          label={t.contact.label}
+          title={t.contact.title}
+          subtitle={t.contact.subtitle}
+        />
+
+        <div className="grid gap-12 lg:grid-cols-5">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="lg:col-span-2"
+          >
+            <div className="rounded-2xl bg-gradient-to-br from-night to-institutional p-8 text-white md:p-10">
+              <h3 className="font-display text-2xl font-bold">
+                {t.contact.infoHeading}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-white/70">
+                {t.contact.infoDescription}
+              </p>
+
+              <ul className="mt-8 space-y-5">
+                <li>
+                  <a
+                    href={`mailto:${siteConfig.email}`}
+                    className="flex items-center gap-4 transition-colors hover:text-gold"
+                  >
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
+                      <FaEnvelope />
+                    </span>
+                    <div>
+                      <p className="text-xs text-white/50">{t.contact.emailLabel}</p>
+                      <p className="text-sm font-medium">{siteConfig.email}</p>
+                    </div>
+                  </a>
+                </li>
+                <li className="flex items-center gap-4">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
+                    <FaMapMarkerAlt />
+                  </span>
+                  <div>
+                    <p className="text-xs text-white/50">{t.contact.locationLabel}</p>
+                    <p className="text-sm font-medium">{t.siteConfig.location}</p>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href={siteConfig.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 transition-colors hover:text-gold"
+                  >
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
+                      <FaLinkedin />
+                    </span>
+                    <div>
+                      <p className="text-xs text-white/50">{t.contact.linkedinLabel}</p>
+                      <p className="text-sm font-medium">{t.contact.profileLabel}</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={siteConfig.calendly}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 transition-colors hover:text-gold"
+                  >
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
+                      <FaCalendarAlt />
+                    </span>
+                    <div>
+                      <p className="text-xs text-white/50">{t.contact.calendlyLabel}</p>
+                      <p className="text-sm font-medium">
+                        {t.contact.scheduleButton}
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+
+              <a
+                href={siteConfig.calendly}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3.5 text-sm font-semibold text-night transition-all hover:bg-gold-light"
+              >
+                <FaCalendarAlt />
+                {t.contact.scheduleButton}
+              </a>
+            </div>
+          </motion.div>
+
+          <motion.form
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            onSubmit={handleSubmit}
+            className="lg:col-span-3"
+          >
+            <div className="rounded-2xl border border-night/5 bg-light p-6 dark:border-white/10 dark:bg-night/80 md:p-8">
+              <div className="grid gap-5 sm:grid-cols-2">
+                <div>
+                  <label
+                    htmlFor="name"
+                    className="mb-1.5 block text-sm font-medium text-night dark:text-white"
+                  >
+                    {t.contact.form.name}
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    className="w-full rounded-lg border border-night/10 bg-white px-4 py-3 text-sm text-night transition-colors focus:border-institutional focus:outline-none focus:ring-2 focus:ring-institutional/20 dark:border-white/10 dark:bg-night dark:text-white"
+                    placeholder={t.contact.form.placeholders.name}
+                  />
+                </div>
+                <div>
+                  <label
+                    htmlFor="organization"
+                    className="mb-1.5 block text-sm font-medium text-night dark:text-white"
+                  >
+                    {t.contact.form.organization}
+                  </label>
+                  <input
+                    type="text"
+                    id="organization"
+                    name="organization"
+                    className="w-full rounded-lg border border-night/10 bg-white px-4 py-3 text-sm text-night transition-colors focus:border-institutional focus:outline-none focus:ring-2 focus:ring-institutional/20 dark:border-white/10 dark:bg-night dark:text-white"
+                    placeholder={t.contact.form.placeholders.organization}
+                  />
+                </div>
+                <div className="sm:col-span-2">
+                  <label
+                    htmlFor="email"
+                    className="mb-1.5 block text-sm font-medium text-night dark:text-white"
+                  >
+                    {t.contact.form.email}
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    className="w-full rounded-lg border border-night/10 bg-white px-4 py-3 text-sm text-night transition-colors focus:border-institutional focus:outline-none focus:ring-2 focus:ring-institutional/20 dark:border-white/10 dark:bg-night dark:text-white"
+                    placeholder={t.contact.form.placeholders.email}
+                  />
+                </div>
+                <div className="sm:col-span-2">
+                  <label
+                    htmlFor="subject"
+                    className="mb-1.5 block text-sm font-medium text-night dark:text-white"
+                  >
+                    {t.contact.form.subject}
+                  </label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    required
+                    className="w-full rounded-lg border border-night/10 bg-white px-4 py-3 text-sm text-night transition-colors focus:border-institutional focus:outline-none focus:ring-2 focus:ring-institutional/20 dark:border-white/10 dark:bg-night dark:text-white"
+                    placeholder={t.contact.form.placeholders.subject}
+                  />
+                </div>
+                <div className="sm:col-span-2">
+                  <label
+                    htmlFor="message"
+                    className="mb-1.5 block text-sm font-medium text-night dark:text-white"
+                  >
+                    {t.contact.form.message}
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    rows={5}
+                    className="w-full resize-none rounded-lg border border-night/10 bg-white px-4 py-3 text-sm text-night transition-colors focus:border-institutional focus:outline-none focus:ring-2 focus:ring-institutional/20 dark:border-white/10 dark:bg-night dark:text-white"
+                    placeholder={t.contact.form.placeholders.message}
+                  />
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                disabled={status === "loading"}
+                className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-institutional px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-institutional-light disabled:opacity-60 sm:w-auto"
+              >
+                <FaPaperPlane />
+                {status === "loading" ? t.contact.form.sending : t.contact.form.sendButton}
+              </button>
+
+              {status === "success" && (
+                <p className="mt-4 text-sm text-green-600 dark:text-green-400" role="status">
+                  {t.contact.form.success}
+                </p>
+              )}
+              {status === "error" && (
+                <p className="mt-4 text-sm text-red-600 dark:text-red-400" role="alert">
+                  {t.contact.form.error} {siteConfig.email}.
+                </p>
+              )}
+            </div>
+          </motion.form>
+        </div>
+      </div>
+    </section>
+  );
+}

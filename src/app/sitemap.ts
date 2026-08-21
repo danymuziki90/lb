@@ -1,1 +1,12 @@
-{"data":"aW1wb3J0IHR5cGUgeyBNZXRhZGF0YVJvdXRlIH0gZnJvbSAibmV4dCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBzaXRlbWFwKCk6IE1ldGFkYXRhUm91dGUuU2l0ZW1hcCB7CiAgcmV0dXJuIFsKICAgIHsKICAgICAgdXJsOiAiaHR0cHM6Ly9saW5kYWpiYXVtYS5jb20iLAogICAgICBsYXN0TW9kaWZpZWQ6IG5ldyBEYXRlKCksCiAgICAgIGNoYW5nZUZyZXF1ZW5jeTogIm1vbnRobHkiLAogICAgICBwcmlvcml0eTogMSwKICAgIH0sCiAgXTsKfQo="}
+import type { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: "https://lindajbauma.com",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
+    },
+  ];
+}

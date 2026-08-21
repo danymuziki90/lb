@@ -1,1 +1,33 @@
-{"data":"aW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwppbXBvcnQgeyBnZXRGbGFnVXJsIH0gZnJvbSAiQC9saWIvZGF0YSI7CgppbnRlcmZhY2UgQ291bnRyeUZsYWdQcm9wcyB7CiAgaXNvMjogc3RyaW5nOwogIGFsdDogc3RyaW5nOwogIHNpemU/OiA0MCB8IDgwOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ291bnRyeUZsYWcoewogIGlzbzIsCiAgYWx0LAogIHNpemUgPSA0MCwKICBjbGFzc05hbWUgPSAiIiwKfTogQ291bnRyeUZsYWdQcm9wcykgewogIGNvbnN0IGRpbSA9IHNpemUgPT09IDQwID8gNDAgOiA4MDsKCiAgcmV0dXJuICgKICAgIDxzcGFuCiAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIGlubGluZS1ibG9jayBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLW5pZ2h0LzEwIHNoYWRvdy1zbSBkYXJrOmJvcmRlci13aGl0ZS8xMCAke2NsYXNzTmFtZX1gfQogICAgICBzdHlsZT17eyB3aWR0aDogZGltICogMS41LCBoZWlnaHQ6IGRpbSB9fQogICAgPgogICAgICA8SW1hZ2UKICAgICAgICBzcmM9e2dldEZsYWdVcmwoaXNvMiwgc2l6ZSl9CiAgICAgICAgYWx0PXthbHR9CiAgICAgICAgZmlsbAogICAgICAgIGNsYXNzTmFtZT0ib2JqZWN0LWNvdmVyIgogICAgICAgIHNpemVzPXtgJHtkaW0gKiAxLjV9cHhgfQogICAgICAvPgogICAgPC9zcGFuPgogICk7Cn0K"}
+import Image from "next/image";
+import { getFlagUrl } from "@/lib/data";
+
+interface CountryFlagProps {
+  iso2: string;
+  alt: string;
+  size?: 40 | 80;
+  className?: string;
+}
+
+export default function CountryFlag({
+  iso2,
+  alt,
+  size = 40,
+  className = "",
+}: CountryFlagProps) {
+  const dim = size === 40 ? 40 : 80;
+
+  return (
+    <span
+      className={`relative inline-block overflow-hidden rounded-md border border-night/10 shadow-sm dark:border-white/10 ${className}`}
+      style={{ width: dim * 1.5, height: dim }}
+    >
+      <Image
+        src={getFlagUrl(iso2, size)}
+        alt={alt}
+        fill
+        className="object-cover"
+        sizes={`${dim * 1.5}px`}
+      />
+    </span>
+  );
+}

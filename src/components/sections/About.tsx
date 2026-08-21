@@ -1,1 +1,113 @@
-{"data":"77u/InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgbW90aW9uIH0gZnJvbSAiZnJhbWVyLW1vdGlvbiI7CmltcG9ydCBTZWN0aW9uSGVhZGluZyBmcm9tICJAL2NvbXBvbmVudHMvdWkvU2VjdGlvbkhlYWRpbmciOwppbXBvcnQgeyB1c2VMYW5ndWFnZSB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvTGFuZ3VhZ2VQcm92aWRlciI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBYm91dCgpIHsKICBjb25zdCB7IHQgfSA9IHVzZUxhbmd1YWdlKCk7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBpZD0iYXByb3BvcyIgY2xhc3NOYW1lPSJyZWxhdGl2ZSBiZy1ncmFkaWVudC10by1iIGZyb20tc2xhdGUtNTAgdmlhLXdoaXRlIHRvLXNsYXRlLTUwIHB5LTIwIGRhcms6ZnJvbS1uaWdodC80MCBkYXJrOnZpYS1uaWdodC8yMCBkYXJrOnRvLW5pZ2h0LzQwIG1kOnB5LTI4Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctN3hsIHB4LTQgbWQ6cHgtOCBsZzpweC0xMiI+CiAgICAgICAgPFNlY3Rpb25IZWFkaW5nCiAgICAgICAgICBsYWJlbD17dC5hYm91dC5sYWJlbH0KICAgICAgICAgIHRpdGxlPXt0LmFib3V0LnRpdGxlfQogICAgICAgICAgc3VidGl0bGU9e3QuYWJvdXQuc2VjdGlvblN1YnRpdGxlfQogICAgICAgICAgYWxpZ249ImxlZnQiCiAgICAgICAgLz4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTE2IGdyaWQgZ2FwLTE2IGxnOmdyaWQtY29scy0yIHhsOmdhcC0yMCI+CiAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHg6IC00MCB9fQogICAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB4OiAwIH19CiAgICAgICAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBlYXNlOiBbMC4yMiwgMSwgMC4zNiwgMV0gfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJzcGFjZS15LTYiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1uaWdodC84IGJnLXdoaXRlLzYwIHAtOCBiYWNrZHJvcC1ibHVyLXNtIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6Ymctd2hpdGUvWzAuMDNdIG1kOnAtMTAiPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1qdXN0aWZ5IHRleHQtbGcgbGVhZGluZy04IHRleHQtbmlnaHQgZGFyazp0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgICAgIHt0LmFib3V0LnBhcmFncmFwaHNbMF19CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1qdXN0aWZ5IHRleHQtYmFzZSBsZWFkaW5nLTcgdGV4dC1uaWdodC82NSBkYXJrOnRleHQtd2hpdGUvNzAiPgogICAgICAgICAgICAgICAge3QuYWJvdXQucGFyYWdyYXBoc1sxXX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJib3JkZXItbC0zIGJvcmRlci1nb2xkIHBsLTUgdGV4dC1qdXN0aWZ5IHRleHQtYmFzZSBmb250LW1lZGl1bSBsZWFkaW5nLTcgdGV4dC1uaWdodCBkYXJrOnRleHQtd2hpdGUvOTAiPgogICAgICAgICAgICAgICAge3QuYWJvdXQuaGlnaGxpZ2h0fQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L21vdGlvbi5kaXY+CgogICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB5OiA0MCB9fQogICAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB5OiAwIH19CiAgICAgICAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBlYXNlOiBbMC4yMiwgMSwgMC4zNiwgMV0gfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJzcGFjZS15LTYiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLW5pZ2h0LzggYmctd2hpdGUvNjAgcC04IGJhY2tkcm9wLWJsdXItc20gZGFyazpib3JkZXItd2hpdGUvMTAgZGFyazpiZy13aGl0ZS9bMC4wM10gbWQ6cC0xMCI+CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCB0ZXh0LWluc3RpdHV0aW9uYWwgZGFyazp0ZXh0LWdvbGQiPgogICAgICAgICAgICAgICAge3QuYWJvdXQudmFsdWVzVGl0bGV9CiAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC03IGdyaWQgZ2FwLTQiPgogICAgICAgICAgICAgICAge3QuYWJvdXQudmFsdWVzLm1hcCgodmFsdWUpID0+ICgKICAgICAgICAgICAgICAgICAgPGxpIGtleT17dmFsdWV9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMuNSI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoLTIgdy0yIHJvdW5kZWQtZnVsbCBiZy1ncmFkaWVudC10by1yIGZyb20tZ29sZCB0by1nb2xkLzcwIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LW5pZ2h0IGRhcms6dGV4dC13aGl0ZS85MCI+e3ZhbHVlfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItbmlnaHQvOCBiZy13aGl0ZS82MCBwLTggYmFja2Ryb3AtYmx1ci1zbSBkYXJrOmJvcmRlci13aGl0ZS8xMCBkYXJrOmJnLXdoaXRlL1swLjAzXSBtZDpwLTEwIj4KICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtaW5zdGl0dXRpb25hbCBkYXJrOnRleHQtZ29sZCI+CiAgICAgICAgICAgICAgICB7dC5hYm91dC5leHBlcnRpc2VUaXRsZX0KICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC03IHNwYWNlLXktMi41Ij4KICAgICAgICAgICAgICAgIHt0LmFib3V0LmV4cGVydGlzZUl0ZW1zLm1hcCgoZXhwZXJ0aXNlKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICBrZXk9e2V4cGVydGlzZX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1uaWdodC81IGJnLW5pZ2h0L1swLjAyXSBweC00IHB5LTMgdHJhbnNpdGlvbi1hbGwgaG92ZXI6Ym9yZGVyLWdvbGQvMzAgaG92ZXI6YmctZ29sZC81IGRhcms6Ym9yZGVyLXdoaXRlLzggZGFyazpiZy13aGl0ZS9bMC4wMl0gZGFyazpob3ZlcjpiZy1nb2xkLzEwIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoLTEuNSB3LTEuNSByb3VuZGVkLWZ1bGwgYmctaW5zdGl0dXRpb25hbCBkYXJrOmJnLWdvbGQiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbmlnaHQvNzUgZGFyazp0ZXh0LXdoaXRlLzgwIj57ZXhwZXJ0aXNlfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDQwIH19CiAgICAgICAgICB3aGlsZUluVmlldz17eyBvcGFjaXR5OiAxLCB5OiAwIH19CiAgICAgICAgICB2aWV3cG9ydD17eyBvbmNlOiB0cnVlIH19CiAgICAgICAgICB0cmFuc2l0aW9uPXt7IGR1cmF0aW9uOiAwLjgsIGVhc2U6IFswLjIyLCAxLCAwLjM2LCAxXSB9fQogICAgICAgICAgY2xhc3NOYW1lPSJtdC0xNiByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLW5pZ2h0LzggYmctd2hpdGUvNjAgcC04IGJhY2tkcm9wLWJsdXItc20gZGFyazpib3JkZXItd2hpdGUvMTAgZGFyazpiZy13aGl0ZS9bMC4wM10gbWQ6cC0xMCIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItOCI+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteHMgZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgdGV4dC1pbnN0aXR1dGlvbmFsIGRhcms6dGV4dC1nb2xkIj4KICAgICAgICAgICAgICB7dC5hYm91dC5kb21haW5UaXRsZX0KICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtc20gdGV4dC1uaWdodC82MCBkYXJrOnRleHQtd2hpdGUvNjAiPgogICAgICAgICAgICAgIHt0LmFib3V0LnRpbWVsaW5lSW50cm99CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yLjUiPgogICAgICAgICAgICB7dC5hYm91dC5kb21haW5zLm1hcCgoZG9tYWluKSA9PiAoCiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIGtleT17ZG9tYWlufQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItbmlnaHQvMTAgYmctbmlnaHQvWzAuMDJdIHB4LTQgcHktMiB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtbmlnaHQvNzAgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6Ym9yZGVyLWluc3RpdHV0aW9uYWwvMzAgaG92ZXI6dGV4dC1pbnN0aXR1dGlvbmFsIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6Ymctd2hpdGUvWzAuMDJdIGRhcms6dGV4dC13aGl0ZS83MCBkYXJrOmhvdmVyOnRleHQtZ29sZCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7ZG9tYWlufQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L21vdGlvbi5kaXY+CgoKICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQoK"}
+﻿"use client";
+
+import { motion } from "framer-motion";
+import SectionHeading from "@/components/ui/SectionHeading";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+
+export default function About() {
+  const { t } = useLanguage();
+
+  return (
+    <section id="apropos" className="relative bg-gradient-to-b from-slate-50 via-white to-slate-50 py-20 dark:from-night/40 dark:via-night/20 dark:to-night/40 md:py-28">
+      <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
+        <SectionHeading
+          label={t.about.label}
+          title={t.about.title}
+          subtitle={t.about.sectionSubtitle}
+          align="left"
+        />
+
+        <div className="mt-16 grid gap-16 lg:grid-cols-2 xl:gap-20">
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="space-y-6"
+          >
+            <div className="space-y-4 rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10">
+              <p className="text-justify text-lg leading-8 text-night dark:text-white">
+                {t.about.paragraphs[0]}
+              </p>
+              <p className="text-justify text-base leading-7 text-night/65 dark:text-white/70">
+                {t.about.paragraphs[1]}
+              </p>
+              <p className="border-l-3 border-gold pl-5 text-justify text-base font-medium leading-7 text-night dark:text-white/90">
+                {t.about.highlight}
+              </p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="space-y-6"
+          >
+            <div className="rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-institutional dark:text-gold">
+                {t.about.valuesTitle}
+              </h3>
+              <ul className="mt-7 grid gap-4">
+                {t.about.values.map((value) => (
+                  <li key={value} className="flex items-center gap-3.5">
+                    <span className="h-2 w-2 rounded-full bg-gradient-to-r from-gold to-gold/70" />
+                    <span className="text-sm font-medium text-night dark:text-white/90">{value}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-institutional dark:text-gold">
+                {t.about.expertiseTitle}
+              </h3>
+              <div className="mt-7 space-y-2.5">
+                {t.about.expertiseItems.map((expertise) => (
+                  <div
+                    key={expertise}
+                    className="flex items-center gap-3 rounded-lg border border-night/5 bg-night/[0.02] px-4 py-3 transition-all hover:border-gold/30 hover:bg-gold/5 dark:border-white/8 dark:bg-white/[0.02] dark:hover:bg-gold/10"
+                  >
+                    <span className="h-1.5 w-1.5 rounded-full bg-institutional dark:bg-gold" />
+                    <span className="text-sm text-night/75 dark:text-white/80">{expertise}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-16 rounded-2xl border border-night/8 bg-white/60 p-8 backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-10"
+        >
+          <div className="mb-8">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-institutional dark:text-gold">
+              {t.about.domainTitle}
+            </h3>
+            <p className="mt-3 text-sm text-night/60 dark:text-white/60">
+              {t.about.timelineIntro}
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2.5">
+            {t.about.domains.map((domain) => (
+              <span
+                key={domain}
+                className="inline-block rounded-full border border-night/10 bg-night/[0.02] px-4 py-2 text-xs font-medium text-night/70 transition-colors hover:border-institutional/30 hover:text-institutional dark:border-white/10 dark:bg-white/[0.02] dark:text-white/70 dark:hover:text-gold"
+              >
+                {domain}
+              </span>
+            ))}
+          </div>
+        </motion.div>
+
+
+      </div>
+    </section>
+  );
+}
+

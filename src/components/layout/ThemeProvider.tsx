@@ -1,1 +1,15 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgVGhlbWVQcm92aWRlciBhcyBOZXh0VGhlbWVzUHJvdmlkZXIgfSBmcm9tICJuZXh0LXRoZW1lcyI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBUaGVtZVByb3ZpZGVyKHsKICBjaGlsZHJlbiwKfTogewogIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7Cn0pIHsKICByZXR1cm4gKAogICAgPE5leHRUaGVtZXNQcm92aWRlciBhdHRyaWJ1dGU9ImNsYXNzIiBkZWZhdWx0VGhlbWU9ImxpZ2h0IiBlbmFibGVTeXN0ZW0+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvTmV4dFRoZW1lc1Byb3ZpZGVyPgogICk7Cn0K"}
+"use client";
+
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+
+export default function ThemeProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <NextThemesProvider attribute="class" defaultTheme="light" enableSystem>
+      {children}
+    </NextThemesProvider>
+  );
+}

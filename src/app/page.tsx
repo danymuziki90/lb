@@ -1,1 +1,37 @@
-{"data":"aW1wb3J0IEhlYWRlciBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0L0hlYWRlciI7CmltcG9ydCBGb290ZXIgZnJvbSAiQC9jb21wb25lbnRzL2xheW91dC9Gb290ZXIiOwppbXBvcnQgSGVybyBmcm9tICJAL2NvbXBvbmVudHMvc2VjdGlvbnMvSGVybyI7CmltcG9ydCBBYm91dCBmcm9tICJAL2NvbXBvbmVudHMvc2VjdGlvbnMvQWJvdXQiOwppbXBvcnQgRXhwZXJ0aXNlIGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucy9FeHBlcnRpc2UiOwppbXBvcnQgQ2FyZWVyIGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucy9DYXJlZXIiOwppbXBvcnQgSW1wYWN0IGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucy9JbXBhY3QiOwppbXBvcnQgUGhvdG9Nb21lbnRzIGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucy9QaG90b01vbWVudHMiOwppbXBvcnQgU2VydmljZXMgZnJvbSAiQC9jb21wb25lbnRzL3NlY3Rpb25zL1NlcnZpY2VzIjsKaW1wb3J0IEludGVydmVudGlvbk1hcCBmcm9tICJAL2NvbXBvbmVudHMvc2VjdGlvbnMvSW50ZXJ2ZW50aW9uTWFwIjsKaW1wb3J0IENvbnRhY3QgZnJvbSAiQC9jb21wb25lbnRzL3NlY3Rpb25zL0NvbnRhY3QiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHsKICByZXR1cm4gKAogICAgPD4KICAgICAgPGEKICAgICAgICBocmVmPSIjYXByb3BvcyIKICAgICAgICBjbGFzc05hbWU9InNyLW9ubHkgZm9jdXM6bm90LXNyLW9ubHkgZm9jdXM6Zml4ZWQgZm9jdXM6bGVmdC00IGZvY3VzOnRvcC00IGZvY3VzOnotWzEwMF0gZm9jdXM6cm91bmRlZC1sZyBmb2N1czpiZy1nb2xkIGZvY3VzOnB4LTQgZm9jdXM6cHktMiBmb2N1czp0ZXh0LW5pZ2h0IgogICAgICA+CiAgICAgICAgQWxsZXIgYXUgY29udGVudSBwcmluY2lwYWwKICAgICAgPC9hPgogICAgICA8SGVhZGVyIC8+CiAgICAgIDxtYWluPgogICAgICAgIDxIZXJvIC8+CiAgICAgICAgPEFib3V0IC8+CiAgICAgICAgPEV4cGVydGlzZSAvPgogICAgICAgIDxDYXJlZXIgLz4KICAgICAgICA8SW1wYWN0IC8+CiAgICAgICAgPFBob3RvTW9tZW50cyAvPgogICAgICAgIDxTZXJ2aWNlcyAvPgogICAgICAgIDxJbnRlcnZlbnRpb25NYXAgLz4KICAgICAgICA8Q29udGFjdCAvPgogICAgICA8L21haW4+CiAgICAgIDxGb290ZXIgLz4KICAgIDwvPgogICk7Cn0K"}
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+import Expertise from "@/components/sections/Expertise";
+import Career from "@/components/sections/Career";
+import Impact from "@/components/sections/Impact";
+import PhotoMoments from "@/components/sections/PhotoMoments";
+import Services from "@/components/sections/Services";
+import InterventionMap from "@/components/sections/InterventionMap";
+import Contact from "@/components/sections/Contact";
+
+export default function Home() {
+  return (
+    <>
+      <a
+        href="#apropos"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-gold focus:px-4 focus:py-2 focus:text-night"
+      >
+        Aller au contenu principal
+      </a>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Expertise />
+        <Career />
+        <Impact />
+        <PhotoMoments />
+        <Services />
+        <InterventionMap />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
+}

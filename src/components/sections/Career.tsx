@@ -1,1 +1,126 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlUmVmLCB1c2VFZmZlY3QgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IG1vdGlvbiB9IGZyb20gImZyYW1lci1tb3Rpb24iOwppbXBvcnQgZ3NhcCBmcm9tICJnc2FwIjsKaW1wb3J0IHsgU2Nyb2xsVHJpZ2dlciB9IGZyb20gImdzYXAvU2Nyb2xsVHJpZ2dlciI7CmltcG9ydCBTZWN0aW9uSGVhZGluZyBmcm9tICJAL2NvbXBvbmVudHMvdWkvU2VjdGlvbkhlYWRpbmciOwppbXBvcnQgeyB1c2VMYW5ndWFnZSB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvTGFuZ3VhZ2VQcm92aWRlciI7Cgpnc2FwLnJlZ2lzdGVyUGx1Z2luKFNjcm9sbFRyaWdnZXIpOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ2FyZWVyKCkgewogIGNvbnN0IHsgdCB9ID0gdXNlTGFuZ3VhZ2UoKTsKICBjb25zdCB0aW1lbGluZVJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBjdHggPSBnc2FwLmNvbnRleHQoKCkgPT4gewogICAgICBnc2FwLnV0aWxzLnRvQXJyYXk8SFRNTEVsZW1lbnQ+KCIudGltZWxpbmUtaXRlbSIpLmZvckVhY2goKGl0ZW0pID0+IHsKICAgICAgICBnc2FwLmZyb20oaXRlbSwgewogICAgICAgICAgc2Nyb2xsVHJpZ2dlcjogewogICAgICAgICAgICB0cmlnZ2VyOiBpdGVtLAogICAgICAgICAgICBzdGFydDogInRvcCA4NSUiLAogICAgICAgICAgICB0b2dnbGVBY3Rpb25zOiAicGxheSBub25lIG5vbmUgcmV2ZXJzZSIsCiAgICAgICAgICB9LAogICAgICAgICAgeDogLTQwLAogICAgICAgICAgb3BhY2l0eTogMCwKICAgICAgICAgIGR1cmF0aW9uOiAwLjcsCiAgICAgICAgICBlYXNlOiAicG93ZXIyLm91dCIsCiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSwgdGltZWxpbmVSZWYpOwoKICAgIHJldHVybiAoKSA9PiBjdHgucmV2ZXJ0KCk7CiAgfSwgW10pOwoKICByZXR1cm4gKAogICAgPHNlY3Rpb24KICAgICAgaWQ9InBhcmNvdXJzIgogICAgICBjbGFzc05hbWU9ImJnLWxpZ2h0IHB5LTIwIGRhcms6YmctbmlnaHQvNTAgbWQ6cHktMjgiCiAgICA+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTd4bCBweC00IG1kOnB4LTggbGc6cHgtMTIiPgogICAgICAgIDxTZWN0aW9uSGVhZGluZwogICAgICAgICAgbGFiZWw9e3QuY2FyZWVyLmxhYmVsfQogICAgICAgICAgdGl0bGU9e3QuY2FyZWVyLnRpdGxlfQogICAgICAgICAgc3VidGl0bGU9e3QuY2FyZWVyLnN1YnRpdGxlfQogICAgICAgIC8+CgogICAgICAgIDxkaXYgcmVmPXt0aW1lbGluZVJlZn0gY2xhc3NOYW1lPSJyZWxhdGl2ZSBteC1hdXRvIG1heC13LTR4bCI+CiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgYm90dG9tLTAgbGVmdC02IHRvcC0wIHctMC41IGJnLWdyYWRpZW50LXRvLWIgZnJvbS1nb2xkIHZpYS1pbnN0aXR1dGlvbmFsIHRvLWdvbGQvMzAgbWQ6bGVmdC0xLzIgbWQ6LXRyYW5zbGF0ZS14LXB4IgogICAgICAgICAgICBhcmlhLWhpZGRlbgogICAgICAgICAgLz4KCiAgICAgICAgICB7dC5jYXJlZXIuaXRlbXMubWFwKChpdGVtLCBpbmRleCkgPT4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAga2V5PXtgJHtpdGVtLnRpdGxlfS0ke2l0ZW0ucGVyaW9kfWB9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgdGltZWxpbmUtaXRlbSByZWxhdGl2ZSBtYi0xMiBmbGV4IG1kOm1iLTE2ICR7CiAgICAgICAgICAgICAgICBpbmRleCAlIDIgPT09IDAgPyAibWQ6ZmxleC1yb3ciIDogIm1kOmZsZXgtcm93LXJldmVyc2UiCiAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGlkZGVuIHctMS8yIG1kOmJsb2NrIiAvPgoKICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B3LWZ1bGwgcGwtMTQgbWQ6dy0xLzIgbWQ6cGwtMCAkewogICAgICAgICAgICAgICAgICBpbmRleCAlIDIgPT09IDAgPyAibWQ6cHItMTIgbWQ6dGV4dC1yaWdodCIgOiAibWQ6cGwtMTIiCiAgICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgICAgICB3aGlsZUhvdmVyPXt7IHNjYWxlOiAxLjAyIH19CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1uaWdodC81IGJnLXdoaXRlIHAtNiBzaGFkb3ctbGcgc2hhZG93LW5pZ2h0LzUgdHJhbnNpdGlvbi1zaGFkb3cgaG92ZXI6c2hhZG93LXhsIGRhcms6Ym9yZGVyLXdoaXRlLzEwIGRhcms6YmctbmlnaHQiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIHJvdW5kZWQtZnVsbCBiZy1nb2xkLzEwIHB4LTMgcHktMSB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1nb2xkIj4KICAgICAgICAgICAgICAgICAgICB7aXRlbS5wZXJpb2R9CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtMyBmb250LWRpc3BsYXkgdGV4dC14bCBmb250LWJvbGQgdGV4dC1uaWdodCBkYXJrOnRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAgICAgIHtpdGVtLnRpdGxlfQogICAgICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgZm9udC1tZWRpdW0gdGV4dC1pbnN0aXR1dGlvbmFsIGRhcms6dGV4dC1nb2xkIj4KICAgICAgICAgICAgICAgICAgICB7aXRlbS5vcmdhbml6YXRpb259CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAge2l0ZW0ubG9jYXRpb24gJiYgKAogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtbmlnaHQvNTAgZGFyazp0ZXh0LXdoaXRlLzUwIj4KICAgICAgICAgICAgICAgICAgICAgIHtpdGVtLmxvY2F0aW9ufQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9Im10LTQgdGV4dC14cyBmb250LXNlbWlib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LW5pZ2h0LzQwIGRhcms6dGV4dC13aGl0ZS80MCI+CiAgICAgICAgICAgICAgICAgICAge2l0ZW0udHlwZSA9PT0gInJlc3BvbnNpYmlsaXRpZXMiCiAgICAgICAgICAgICAgICAgICAgICA/IHQuY2FyZWVyLnR5cGVzLnJlc3BvbnNpYmlsaXRpZXMKICAgICAgICAgICAgICAgICAgICAgIDogdC5jYXJlZXIudHlwZXMuYWNoaWV2ZW1lbnRzfQogICAgICAgICAgICAgICAgICA8L2g0PgogICAgICAgICAgICAgICAgICA8dWwKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BtdC0yIHNwYWNlLXktMS41ICR7CiAgICAgICAgICAgICAgICAgICAgICBpbmRleCAlIDIgPT09IDAgPyAibWQ6dGV4dC1yaWdodCIgOiAiIgogICAgICAgICAgICAgICAgICAgIH1gfQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge2l0ZW0uaXRlbXMubWFwKChwb2ludCkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPGxpCiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17cG9pbnR9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YGZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgdGV4dC1zbSB0ZXh0LW5pZ2h0LzcwIGRhcms6dGV4dC13aGl0ZS83MCAkewogICAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4ICUgMiA9PT0gMAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPyAibWQ6ZmxleC1yb3ctcmV2ZXJzZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogIiIKICAgICAgICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibXQtMS41IGgtMS41IHctMS41IHNocmluay0wIHJvdW5kZWQtZnVsbCBiZy1nb2xkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICB7cG9pbnR9CiAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtNiB0b3AtNiB6LTEwIGZsZXggaC00IHctNCAtdHJhbnNsYXRlLXgtMS8yIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYm9yZGVyLTQgYm9yZGVyLWdvbGQgYmctd2hpdGUgZGFyazpiZy1uaWdodCBtZDpsZWZ0LTEvMiIKICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMiB3LTIgcm91bmRlZC1mdWxsIGJnLWluc3RpdHV0aW9uYWwiIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K"}
+"use client";
+
+import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import SectionHeading from "@/components/ui/SectionHeading";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+
+gsap.registerPlugin(ScrollTrigger);
+
+export default function Career() {
+  const { t } = useLanguage();
+  const timelineRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.utils.toArray<HTMLElement>(".timeline-item").forEach((item) => {
+        gsap.from(item, {
+          scrollTrigger: {
+            trigger: item,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+          x: -40,
+          opacity: 0,
+          duration: 0.7,
+          ease: "power2.out",
+        });
+      });
+    }, timelineRef);
+
+    return () => ctx.revert();
+  }, []);
+
+  return (
+    <section
+      id="parcours"
+      className="bg-light py-20 dark:bg-night/50 md:py-28"
+    >
+      <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
+        <SectionHeading
+          label={t.career.label}
+          title={t.career.title}
+          subtitle={t.career.subtitle}
+        />
+
+        <div ref={timelineRef} className="relative mx-auto max-w-4xl">
+          <div
+            className="absolute bottom-0 left-6 top-0 w-0.5 bg-gradient-to-b from-gold via-institutional to-gold/30 md:left-1/2 md:-translate-x-px"
+            aria-hidden
+          />
+
+          {t.career.items.map((item, index) => (
+            <div
+              key={`${item.title}-${item.period}`}
+              className={`timeline-item relative mb-12 flex md:mb-16 ${
+                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+              }`}
+            >
+              <div className="hidden w-1/2 md:block" />
+
+              <div
+                className={`w-full pl-14 md:w-1/2 md:pl-0 ${
+                  index % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"
+                }`}
+              >
+                <motion.div
+                  whileHover={{ scale: 1.02 }}
+                  className="rounded-2xl border border-night/5 bg-white p-6 shadow-lg shadow-night/5 transition-shadow hover:shadow-xl dark:border-white/10 dark:bg-night"
+                >
+                  <span className="inline-block rounded-full bg-gold/10 px-3 py-1 text-xs font-semibold text-gold">
+                    {item.period}
+                  </span>
+                  <h3 className="mt-3 font-display text-xl font-bold text-night dark:text-white">
+                    {item.title}
+                  </h3>
+                  <p className="mt-1 font-medium text-institutional dark:text-gold">
+                    {item.organization}
+                  </p>
+                  {item.location && (
+                    <p className="mt-1 text-sm text-night/50 dark:text-white/50">
+                      {item.location}
+                    </p>
+                  )}
+
+                  <h4 className="mt-4 text-xs font-semibold uppercase tracking-wider text-night/40 dark:text-white/40">
+                    {item.type === "responsibilities"
+                      ? t.career.types.responsibilities
+                      : t.career.types.achievements}
+                  </h4>
+                  <ul
+                    className={`mt-2 space-y-1.5 ${
+                      index % 2 === 0 ? "md:text-right" : ""
+                    }`}
+                  >
+                    {item.items.map((point) => (
+                      <li
+                        key={point}
+                        className={`flex items-start gap-2 text-sm text-night/70 dark:text-white/70 ${
+                          index % 2 === 0
+                            ? "md:flex-row-reverse"
+                            : ""
+                        }`}
+                      >
+                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+              </div>
+
+              <div
+                className="absolute left-6 top-6 z-10 flex h-4 w-4 -translate-x-1/2 items-center justify-center rounded-full border-4 border-gold bg-white dark:bg-night md:left-1/2"
+                aria-hidden
+              >
+                <div className="h-2 w-2 rounded-full bg-institutional" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

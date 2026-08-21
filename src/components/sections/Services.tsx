@@ -1,1 +1,50 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgbW90aW9uIH0gZnJvbSAiZnJhbWVyLW1vdGlvbiI7CmltcG9ydCBTZWN0aW9uSGVhZGluZyBmcm9tICJAL2NvbXBvbmVudHMvdWkvU2VjdGlvbkhlYWRpbmciOwppbXBvcnQgeyB1c2VMYW5ndWFnZSB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQvTGFuZ3VhZ2VQcm92aWRlciI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTZXJ2aWNlcygpIHsKICBjb25zdCB7IHQgfSA9IHVzZUxhbmd1YWdlKCk7CgogIHJldHVybiAoCiAgICA8c2VjdGlvbiBpZD0ic2VydmljZXMiIGNsYXNzTmFtZT0iYmctd2hpdGUgcHktMjAgZGFyazpiZy1uaWdodCBtZDpweS0yOCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTd4bCBweC00IG1kOnB4LTggbGc6cHgtMTIiPgogICAgICAgIDxTZWN0aW9uSGVhZGluZwogICAgICAgICAgbGFiZWw9e3Quc2VydmljZXMubGFiZWx9CiAgICAgICAgICB0aXRsZT17dC5zZXJ2aWNlcy50aXRsZX0KICAgICAgICAgIHN1YnRpdGxlPXt0LnNlcnZpY2VzLnN1YnRpdGxlfQogICAgICAgIC8+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdhcC02IHNtOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy0zIj4KICAgICAgICAgIHt0LnNlcnZpY2VzLml0ZW1zLm1hcCgoc2VydmljZSwgaW5kZXgpID0+IHsKICAgICAgICAgICAgY29uc3QgSWNvbiA9IHNlcnZpY2UuaWNvbjsKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8bW90aW9uLmFydGljbGUKICAgICAgICAgICAgICAgIGtleT17c2VydmljZS50aXRsZX0KICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMCwgeTogMjQgfX0KICAgICAgICAgICAgICAgIHdoaWxlSW5WaWV3PXt7IG9wYWNpdHk6IDEsIHk6IDAgfX0KICAgICAgICAgICAgICAgIHZpZXdwb3J0PXt7IG9uY2U6IHRydWUgfX0KICAgICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNSwgZGVsYXk6IGluZGV4ICogMC4wNiB9fQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgYmctZ3JhZGllbnQtdG8tYnIgZnJvbS1uaWdodCB0by1pbnN0aXR1dGlvbmFsIHAtWzFweF0iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaC1mdWxsIGZsZXgtY29sIHJvdW5kZWQtMnhsIGJnLXdoaXRlIHAtNiB0cmFuc2l0aW9uLWNvbG9ycyBncm91cC1ob3ZlcjpiZy1uaWdodCBkYXJrOmJnLW5pZ2h0IGRhcms6Z3JvdXAtaG92ZXI6YmctbmlnaHQvOTAgbWQ6cC04Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTQgZmxleCBoLTEyIHctMTIgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQteGwgYmctZ29sZC8xMCB0ZXh0LWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMgZ3JvdXAtaG92ZXI6YmctZ29sZCBncm91cC1ob3Zlcjp0ZXh0LW5pZ2h0Ij4KICAgICAgICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNiB3LTYiIC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCBmb250LWJvbGQgdGV4dC1uaWdodCB0cmFuc2l0aW9uLWNvbG9ycyBncm91cC1ob3Zlcjp0ZXh0LXdoaXRlIGRhcms6dGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAge3NlcnZpY2UudGl0bGV9CiAgICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyBmbGV4LTEgdGV4dC1zbSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1uaWdodC82MCB0cmFuc2l0aW9uLWNvbG9ycyBncm91cC1ob3Zlcjp0ZXh0LXdoaXRlLzcwIGRhcms6dGV4dC13aGl0ZS82MCI+CiAgICAgICAgICAgICAgICAgICAge3NlcnZpY2UuZGVzY3JpcHRpb259CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgaC0wLjUgdy0wIGJnLWdvbGQgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIGdyb3VwLWhvdmVyOnctMTIiIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L21vdGlvbi5hcnRpY2xlPgogICAgICAgICAgICApOwogICAgICAgICAgfSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K"}
+"use client";
+
+import { motion } from "framer-motion";
+import SectionHeading from "@/components/ui/SectionHeading";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+
+export default function Services() {
+  const { t } = useLanguage();
+
+  return (
+    <section id="services" className="bg-white py-20 dark:bg-night md:py-28">
+      <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
+        <SectionHeading
+          label={t.services.label}
+          title={t.services.title}
+          subtitle={t.services.subtitle}
+        />
+
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {t.services.items.map((service, index) => {
+            const Icon = service.icon;
+            return (
+              <motion.article
+                key={service.title}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.06 }}
+                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-night to-institutional p-[1px]"
+              >
+                <div className="flex h-full flex-col rounded-2xl bg-white p-6 transition-colors group-hover:bg-night dark:bg-night dark:group-hover:bg-night/90 md:p-8">
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold transition-colors group-hover:bg-gold group-hover:text-night">
+                    <Icon className="h-6 w-6" />
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-night transition-colors group-hover:text-white dark:text-white">
+                    {service.title}
+                  </h3>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-night/60 transition-colors group-hover:text-white/70 dark:text-white/60">
+                    {service.description}
+                  </p>
+                  <div className="mt-4 h-0.5 w-0 bg-gold transition-all duration-300 group-hover:w-12" />
+                </div>
+              </motion.article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

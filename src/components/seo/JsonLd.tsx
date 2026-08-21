@@ -1,1 +1,37 @@
-{"data":"ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSnNvbkxkKCkgewogIGNvbnN0IHN0cnVjdHVyZWREYXRhID0gewogICAgIkBjb250ZXh0IjogImh0dHBzOi8vc2NoZW1hLm9yZyIsCiAgICAiQHR5cGUiOiAiUGVyc29uIiwKICAgIG5hbWU6ICJMaW5kYSBKLiBCYXVtYSIsCiAgICBqb2JUaXRsZTogIkNvbnNlaWxsw6hyZSBTdHJhdMOpZ2lxdWUgZXQgRGlwbG9tYXRpcXVlIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiRXhwZXJ0ZSBpbnRlcm5hdGlvbmFsZSBlbiBkaXBsb21hdGllIHB1YmxpcXVlLCBjb21tdW5pY2F0aW9uIGRlIGNyaXNlLCBnb3V2ZXJuYW5jZSwgw6lnYWxpdMOpIGRlIGdlbnJlIGV0IGxvY2FsaXNhdGlvbiBkZSBsJ2FpZGUgaHVtYW5pdGFpcmUuIiwKICAgIHVybDogImh0dHBzOi8vbGluZGFqYmF1bWEuY29tIiwKICAgIGVtYWlsOiAiY29udGFjdEBsaW5kYWpiYXVtYS5jb20iLAogICAgYWRkcmVzczogewogICAgICAiQHR5cGUiOiAiUG9zdGFsQWRkcmVzcyIsCiAgICAgIGFkZHJlc3NMb2NhbGl0eTogIktpbnNoYXNhIiwKICAgICAgYWRkcmVzc0NvdW50cnk6ICJDRCIsCiAgICB9LAogICAga25vd3NBYm91dDogWwogICAgICAiRGlwbG9tYXRpZSBwdWJsaXF1ZSIsCiAgICAgICJDb21tdW5pY2F0aW9uIGRlIGNyaXNlIiwKICAgICAgIkdvdXZlcm5hbmNlIiwKICAgICAgIsOJZ2FsaXTDqSBkZSBnZW5yZSIsCiAgICAgICJEcm9pdHMgaHVtYWlucyIsCiAgICAgICJBaWRlIGh1bWFuaXRhaXJlIiwKICAgICAgIkNvbnNvbGlkYXRpb24gZGUgbGEgcGFpeCIsCiAgICBdLAogICAgd29ya0xvY2F0aW9uOiBbCiAgICAgIHsgIkB0eXBlIjogIlBsYWNlIiwgbmFtZTogIkFmcmlxdWUgQ2VudHJhbGUiIH0sCiAgICAgIHsgIkB0eXBlIjogIlBsYWNlIiwgbmFtZTogIlNhaGVsIiB9LAogICAgXSwKICB9OwoKICByZXR1cm4gKAogICAgPHNjcmlwdAogICAgICB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIgogICAgICBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IEpTT04uc3RyaW5naWZ5KHN0cnVjdHVyZWREYXRhKSB9fQogICAgLz4KICApOwp9Cg=="}
+export default function JsonLd() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Linda J. Bauma",
+    jobTitle: "Conseillère Stratégique et Diplomatique",
+    description:
+      "Experte internationale en diplomatie publique, communication de crise, gouvernance, égalité de genre et localisation de l'aide humanitaire.",
+    url: "https://lindajbauma.com",
+    email: "contact@lindajbauma.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Kinshasa",
+      addressCountry: "CD",
+    },
+    knowsAbout: [
+      "Diplomatie publique",
+      "Communication de crise",
+      "Gouvernance",
+      "Égalité de genre",
+      "Droits humains",
+      "Aide humanitaire",
+      "Consolidation de la paix",
+    ],
+    workLocation: [
+      { "@type": "Place", name: "Afrique Centrale" },
+      { "@type": "Place", name: "Sahel" },
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+    />
+  );
+}

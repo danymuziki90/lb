@@ -1,1 +1,239 @@
-{"data":"InVzZSBjbGllbnQiOwoKaW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwppbXBvcnQgeyBtb3Rpb24gfSBmcm9tICJmcmFtZXItbW90aW9uIjsKaW1wb3J0IHsgRmFEb3dubG9hZCwgRmFFbnZlbG9wZSwgRmFBcnJvd1JpZ2h0IH0gZnJvbSAicmVhY3QtaWNvbnMvZmEiOwppbXBvcnQgeyBzaXRlQ29uZmlnIH0gZnJvbSAiQC9saWIvZGF0YSI7CmltcG9ydCB7IHVzZUxhbmd1YWdlIH0gZnJvbSAiQC9jb21wb25lbnRzL2xheW91dC9MYW5ndWFnZVByb3ZpZGVyIjsKCmNvbnN0IEVBU0UgPSBbMC4yMiwgMSwgMC4zNiwgMV0gYXMgY29uc3Q7Cgpjb25zdCBmYWRlSW4gPSB7CiAgaGlkZGVuOiB7IG9wYWNpdHk6IDAsIHk6IDIwIH0sCiAgdmlzaWJsZTogKGk6IG51bWJlcikgPT4gKHsKICAgIG9wYWNpdHk6IDEsCiAgICB5OiAwLAogICAgdHJhbnNpdGlvbjogeyBkdXJhdGlvbjogMC42NSwgZGVsYXk6IGkgKiAwLjEsIGVhc2U6IEVBU0UgfSwKICB9KSwKfTsKCmZ1bmN0aW9uIEFmcmljYVdhdGVybWFyaygpIHsKICByZXR1cm4gKAogICAgPHN2ZwogICAgICB2aWV3Qm94PSIwIDAgNDAwIDQyMCIKICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgdy1mdWxsIgogICAgICBmaWxsPSJub25lIgogICAgICBhcmlhLWhpZGRlbgogICAgPgogICAgICA8cGF0aAogICAgICAgIGQ9Ik02MCA4MCBDOTAgNTAgMTQwIDQ1IDE4MCA1NSBDMjIwIDQwIDI3MCA1MCAzMTAgNzUgQzM0MCAxMDAgMzU1IDE0MCAzNDUgMTgwIEMzNjAgMjIwIDM1MCAyNzAgMzIwIDMxMCBDMjgwIDM2MCAyMjAgMzgwIDE3MCAzNzAgQzEyMCAzNjUgODAgMzQwIDU1IDMwMCBDMzAgMjYwIDI1IDIxMCA0MCAxNzAgQzUwIDEzMCA0NSAxMDAgNjAgODAgWiIKICAgICAgICBzdHJva2U9IiMwQjFGM0EiCiAgICAgICAgc3Ryb2tlV2lkdGg9IjAuNiIKICAgICAgICBmaWxsPSIjMEIxRjNBIgogICAgICAgIGZpbGxPcGFjaXR5PSIwLjAyIgogICAgICAgIHN0cm9rZU9wYWNpdHk9IjAuMDYiCiAgICAgIC8+CiAgICAgIDxsaW5lCiAgICAgICAgeDE9IjQwIgogICAgICAgIHkxPSIyMDAiCiAgICAgICAgeDI9IjM2MCIKICAgICAgICB5Mj0iMjAwIgogICAgICAgIHN0cm9rZT0iI0M4QTk2QiIKICAgICAgICBzdHJva2VXaWR0aD0iMC40IgogICAgICAgIHN0cm9rZU9wYWNpdHk9IjAuMTIiCiAgICAgIC8+CiAgICAgIDxsaW5lCiAgICAgICAgeDE9IjgwIgogICAgICAgIHkxPSIyODAiCiAgICAgICAgeDI9IjMyMCIKICAgICAgICB5Mj0iMjgwIgogICAgICAgIHN0cm9rZT0iI0M4QTk2QiIKICAgICAgICBzdHJva2VXaWR0aD0iMC40IgogICAgICAgIHN0cm9rZU9wYWNpdHk9IjAuMDgiCiAgICAgIC8+CiAgICA8L3N2Zz4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZXJvKCkgewogIGNvbnN0IHsgdCB9ID0gdXNlTGFuZ3VhZ2UoKTsKCiAgcmV0dXJuICgKICAgIDxzZWN0aW9uCiAgICAgIGlkPSJhY2N1ZWlsIgogICAgICBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXggbWluLWgtWzkwdmhdIGl0ZW1zLWNlbnRlciBvdmVyZmxvdy1oaWRkZW4gYmctbmlnaHQiCiAgICA+CiAgICAgIHsvKiBGb25kIHByZW1pdW0gZGlzY3JldCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLW5vbmUgYWJzb2x1dGUgaW5zZXQtMCIgYXJpYS1oaWRkZW4+CiAgICAgICAgey8qIFN1YnRsZSB0d28tdG9uZSBncmFkaWVudCAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy1ncmFkaWVudC10by1iIGZyb20tWyMwYzEyMjJdIHZpYS1bIzBmMTcyYV0gdG8tWyMxMTE4MjddIiAvPgoKICAgICAgICB7LyogTW9kZXJuIGdlb21ldHJpYyBwYXR0ZXJuICh2ZXJ5IGxvdyBvcGFjaXR5KSAqL30KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgb3BhY2l0eS0xMCIKICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgIGJhY2tncm91bmRJbWFnZTogYHVybCgiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNjAnIGhlaWdodD0nMTYwJyB2aWV3Qm94PScwIDAgMTYwIDE2MCclM0UlM0NnIGZpbGw9J25vbmUnIHN0cm9rZT0nJTIzMGIxZjNhJyBzdHJva2Utd2lkdGg9JzAuOCcgc3Ryb2tlLW9wYWNpdHk9JzAuMDMnJTNFJTNDcGF0aCBkPSdNMCAyMCBMMjAgMCBNNDAgMjAgTDYwIDAgTTgwIDIwIEwxMDAgMCBNMTIwIDIwIEwxNDAgMCBNMTYwIDIwIEwxODAgMCcvJTNFJTNDcGF0aCBkPSdNMCA2MCBMMjAgNDAgTTQwIDYwIEw2MCA0MCBNODAgNjAgTDEwMCA0MCBNMTIwIDYwIEwxNDAgNDAgTTE2MCA2MCBMMTgwIDQwJy8lM0UlM0MvZyUzRSUzQy9zdmclM0UiKWAsCiAgICAgICAgICAgIGJhY2tncm91bmRSZXBlYXQ6ICJyZXBlYXQiLAogICAgICAgICAgICBiYWNrZ3JvdW5kU2l6ZTogIjE2MHB4IDE2MHB4IiwKICAgICAgICAgICAgbWl4QmxlbmRNb2RlOiAib3ZlcmxheSIsCiAgICAgICAgICB9fQogICAgICAgIC8+CiAgICAgICAgey8qIEZpbGlncmFuZSBBZnJpcXVlICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMTIgdG9wLTEvMiBoLVs2OCVdIHctWzQ0JV0gbWF4LXctbGcgLXRyYW5zbGF0ZS15LTEvMiBvcGFjaXR5LTIwIGJsdXItWzAuMnB4XSBsZzpyaWdodC04Ij4KICAgICAgICAgIDxBZnJpY2FXYXRlcm1hcmsgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICB7LyogTGlnbmVzIGRpcGxvbWF0aXF1ZXMgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMCB0b3AtWzE4JV0gaC1weCB3LTEvMyBiZy1ncmFkaWVudC10by1yIGZyb20tWyNDOEE5NkJdLzI1IHRvLXRyYW5zcGFyZW50IiAvPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBib3R0b20tWzIyJV0gcmlnaHQtMCBoLXB4IHctMS80IGJnLWdyYWRpZW50LXRvLWwgZnJvbS1bIzBCMUYzQV0vMTAgdG8tdHJhbnNwYXJlbnQiIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAgbXgtYXV0byB3LWZ1bGwgbWF4LXctN3hsIHB4LTQgcHktMjggbWQ6cHgtOCBsZzpweC0xMiBsZzpweS0zNiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgaXRlbXMtY2VudGVyIGdhcC0xNCBsZzpncmlkLWNvbHMtMiBsZzpnYXAtMjAiPgogICAgICAgICAgey8qIENvbG9ubmUgZ2F1Y2hlICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im9yZGVyLTEiPgogICAgICAgICAgICA8bW90aW9uLnAKICAgICAgICAgICAgICBjdXN0b209ezB9CiAgICAgICAgICAgICAgdmFyaWFudHM9e2ZhZGVJbn0KICAgICAgICAgICAgICBpbml0aWFsPSJoaWRkZW4iCiAgICAgICAgICAgICAgYW5pbWF0ZT0idmlzaWJsZSIKICAgICAgICAgICAgICBjbGFzc05hbWU9Im1iLTUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIuNSB0ZXh0LXNtIHRleHQtd2hpdGVcLzcwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGgtMiB3LTIiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbmxpbmUtZmxleCBoLWZ1bGwgdy1mdWxsIGFuaW1hdGUtcGluZyByb3VuZGVkLWZ1bGwgYmctZW1lcmFsZC01MDAgb3BhY2l0eS0yMCIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icmVsYXRpdmUgaW5saW5lLWZsZXggaC0yIHctMiByb3VuZGVkLWZ1bGwgYmctZW1lcmFsZC02MDAiIC8+CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIHt0Lmhlcm8ubGFiZWx9CiAgICAgICAgICAgIDwvbW90aW9uLnA+CgogICAgICAgICAgICA8bW90aW9uLmgxCiAgICAgICAgICAgICAgY3VzdG9tPXsxfQogICAgICAgICAgICAgIHZhcmlhbnRzPXtmYWRlSW59CiAgICAgICAgICAgICAgaW5pdGlhbD0iaGlkZGVuIgogICAgICAgICAgICAgIGFuaW1hdGU9InZpc2libGUiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC00eGwgZm9udC1ib2xkIGxlYWRpbmctWzEuMDhdIHRyYWNraW5nLXRpZ2h0IHRleHQtd2hpdGUgc206dGV4dC01eGwgbGc6dGV4dC1bMy4yNXJlbV0geGw6dGV4dC02eGwiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICBMaW5kYSBKLiBCYXVtYQogICAgICAgICAgICA8L21vdGlvbi5oMT4KCiAgICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgICAgY3VzdG9tPXsyfQogICAgICAgICAgICAgIHZhcmlhbnRzPXtmYWRlSW59CiAgICAgICAgICAgICAgaW5pdGlhbD0iaGlkZGVuIgogICAgICAgICAgICAgIGFuaW1hdGU9InZpc2libGUiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtdC01IHNwYWNlLXktMS41IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBzbTp0ZXh0LXhsIj4KICAgICAgICAgICAgICAgIHt0Lmhlcm8ucm9sZX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJhc2UgdGV4dC13aGl0ZVwvNzAgc206dGV4dC1sZyI+CiAgICAgICAgICAgICAgICB7dC5oZXJvLnNwZWNpYWx0eTF9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1iYXNlIHRleHQtd2hpdGVcLzcwIHNtOnRleHQtbGciPgogICAgICAgICAgICAgICAge3QuaGVyby5zcGVjaWFsdHkyfQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9tb3Rpb24uZGl2PgoKICAgICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgICBjdXN0b209ezN9CiAgICAgICAgICAgICAgdmFyaWFudHM9e2ZhZGVJbn0KICAgICAgICAgICAgICBpbml0aWFsPSJoaWRkZW4iCiAgICAgICAgICAgICAgYW5pbWF0ZT0idmlzaWJsZSIKICAgICAgICAgICAgICBjbGFzc05hbWU9Im10LTUgaC1weCB3LTEyIGJnLVsjQzhBOTZCXSIKICAgICAgICAgICAgICBhcmlhLWhpZGRlbgogICAgICAgICAgICAvPgoKICAgICAgICAgICAgPG1vdGlvbi5wCiAgICAgICAgICAgICAgY3VzdG9tPXs0fQogICAgICAgICAgICAgIHZhcmlhbnRzPXtmYWRlSW59CiAgICAgICAgICAgICAgaW5pdGlhbD0iaGlkZGVuIgogICAgICAgICAgICAgIGFuaW1hdGU9InZpc2libGUiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtdC01IG1heC13LWxnIGZvbnQtZGlzcGxheSB0ZXh0LWJhc2UgaXRhbGljIGxlYWRpbmctcmVsYXhlZCB0ZXh0LXdoaXRlLzgwIHNtOnRleHQtbGciCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7dC5oZXJvLmludHJvfQogICAgICAgICAgICA8L21vdGlvbi5wPgoKICAgICAgICAgICAgPG1vdGlvbi5wCiAgICAgICAgICAgICAgY3VzdG9tPXs1fQogICAgICAgICAgICAgIHZhcmlhbnRzPXtmYWRlSW59CiAgICAgICAgICAgICAgaW5pdGlhbD0iaGlkZGVuIgogICAgICAgICAgICAgIGFuaW1hdGU9InZpc2libGUiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtdC01IG1heC13LXhsIHRleHQtanVzdGlmeSB0ZXh0LWJhc2UgbGVhZGluZy1bMS43NV0gdGV4dC13aGl0ZS82NSBzbTp0ZXh0LVsxLjA1cmVtXSIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIHt0Lmhlcm8uZGVzY3JpcHRpb259CiAgICAgICAgICAgIDwvbW90aW9uLnA+CgogICAgICAgICAgICA8bW90aW9uLnAKICAgICAgICAgICAgICBjdXN0b209ezZ9CiAgICAgICAgICAgICAgdmFyaWFudHM9e2ZhZGVJbn0KICAgICAgICAgICAgICBpbml0aWFsPSJoaWRkZW4iCiAgICAgICAgICAgICAgYW5pbWF0ZT0idmlzaWJsZSIKICAgICAgICAgICAgICBjbGFzc05hbWU9Im10LTQgdGV4dC1zbSBmb250LW1lZGl1bSB0cmFja2luZy13aWRlIHRleHQtd2hpdGUvNTAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7dC5oZXJvLnJlZ2lvbnN9CiAgICAgICAgICAgIDwvbW90aW9uLnA+CgogICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgIGN1c3RvbT17N30KICAgICAgICAgICAgICB2YXJpYW50cz17ZmFkZUlufQogICAgICAgICAgICAgIGluaXRpYWw9ImhpZGRlbiIKICAgICAgICAgICAgICBhbmltYXRlPSJ2aXNpYmxlIgogICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtOSBmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTMgc206Z2FwLTQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj17c2l0ZUNvbmZpZy5jdlBhdGh9CiAgICAgICAgICAgICAgICBkb3dubG9hZAogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLW1kIGJnLWdvbGQgcHgtNiBweS0zIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LW5pZ2h0IHNoYWRvdy1sZyB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi0zMDAgaG92ZXI6YmctZ29sZC1saWdodCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8RmFEb3dubG9hZCBjbGFzc05hbWU9InRleHQtWyNDOEE5NkJdIHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTMwMCBncm91cC1ob3ZlcjotdHJhbnNsYXRlLXktcHgiIC8+CiAgICAgICAgICAgICAgICB7dC5oZXJvLmRvd25sb2FkQ3Z9CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICBocmVmPSIjY29udGFjdCIKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWdvbGQgYmctdHJhbnNwYXJlbnQgcHgtNiBweS0zIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWdvbGQgdHJhbnNpdGlvbi1zaGFkb3cgZHVyYXRpb24tMzAwIGhvdmVyOmJnLWdvbGQvMTAgaG92ZXI6c2hhZG93LWxnIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxGYUVudmVsb3BlIGNsYXNzTmFtZT0idGV4dC1bI0M4QTk2Ql0vODAiIC8+CiAgICAgICAgICAgICAgICB7dC5oZXJvLmNvbnRhY3R9CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICBocmVmPSIjcGFyY291cnMiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHB4LTIgcHktMyB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZS83MCB0cmFuc2l0aW9uLWNvbG9ycyBkdXJhdGlvbi0zMDAgaG92ZXI6dGV4dC13aGl0ZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7dC5oZXJvLmRpc2NvdmVyfQogICAgICAgICAgICAgICAgPEZhQXJyb3dSaWdodCBjbGFzc05hbWU9InRleHQteHMgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMzAwIGdyb3VwLWhvdmVyOnRyYW5zbGF0ZS14LTEiIC8+CiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogQ29sb25uZSBkcm9pdGUg4oCUIHBvcnRyYWl0ICovfQogICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCB4OiAyNCB9fQogICAgICAgICAgICBhbmltYXRlPXt7IG9wYWNpdHk6IDEsIHg6IDAgfX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17eyBkdXJhdGlvbjogMC44LCBkZWxheTogMC4yNSwgZWFzZTogRUFTRSB9fQogICAgICAgICAgICBjbGFzc05hbWU9Im9yZGVyLTIgZmxleCBqdXN0aWZ5LWNlbnRlciBsZzpqdXN0aWZ5LWVuZCIKICAgICAgICAgID4KICAgICAgICAgICAgPGZpZ3VyZSBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBtYXgtdy1tZCBsZzptYXgtdy1sZyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGFzcGVjdC1bNC81XSBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC1sZyBiZy1ncmFkaWVudC10by10ciBmcm9tLVsjMDgxMjI3XSB2aWEtWyMwZjE3MmFdIHRvLVsjMTMyMDMzXSBib3JkZXIgYm9yZGVyLXdoaXRlLzYgc2hhZG93LTJ4bCI+CiAgICAgICAgICAgICAgICA8SW1hZ2UKICAgICAgICAgICAgICAgICAgc3JjPXtzaXRlQ29uZmlnLmhlcm9Qb3J0cmFpdH0KICAgICAgICAgICAgICAgICAgYWx0PXt0Lmhlcm8ucG9ydHJhaXRBbHR9CiAgICAgICAgICAgICAgICAgIGZpbGwKICAgICAgICAgICAgICAgICAgcHJpb3JpdHkKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJvYmplY3QtY292ZXIgb2JqZWN0LXRvcCIKICAgICAgICAgICAgICAgICAgc2l6ZXM9IihtYXgtd2lkdGg6IDc2OHB4KSAxMDB2dywgKG1heC13aWR0aDogMTIwMHB4KSA1MHZ3LCA0ODBweCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgey8qIEVuY2FkcmVtZW50IGRpc2NyZXQgKi99CiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIC1ib3R0b20tMyAtcmlnaHQtMyBoLWZ1bGwgdy1mdWxsIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci13aGl0ZS82IgogICAgICAgICAgICAgICAgYXJpYS1oaWRkZW4KICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2ZpZ3VyZT4KICAgICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQoKCgo="}
+"use client";
+
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { FaDownload, FaEnvelope, FaArrowRight } from "react-icons/fa";
+import { siteConfig } from "@/lib/data";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+
+const EASE = [0.22, 1, 0.36, 1] as const;
+
+const fadeIn = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.65, delay: i * 0.1, ease: EASE },
+  }),
+};
+
+function AfricaWatermark() {
+  return (
+    <svg
+      viewBox="0 0 400 420"
+      className="h-full w-full"
+      fill="none"
+      aria-hidden
+    >
+      <path
+        d="M60 80 C90 50 140 45 180 55 C220 40 270 50 310 75 C340 100 355 140 345 180 C360 220 350 270 320 310 C280 360 220 380 170 370 C120 365 80 340 55 300 C30 260 25 210 40 170 C50 130 45 100 60 80 Z"
+        stroke="#0B1F3A"
+        strokeWidth="0.6"
+        fill="#0B1F3A"
+        fillOpacity="0.02"
+        strokeOpacity="0.06"
+      />
+      <line
+        x1="40"
+        y1="200"
+        x2="360"
+        y2="200"
+        stroke="#C8A96B"
+        strokeWidth="0.4"
+        strokeOpacity="0.12"
+      />
+      <line
+        x1="80"
+        y1="280"
+        x2="320"
+        y2="280"
+        stroke="#C8A96B"
+        strokeWidth="0.4"
+        strokeOpacity="0.08"
+      />
+    </svg>
+  );
+}
+
+export default function Hero() {
+  const { t } = useLanguage();
+
+  return (
+    <section
+      id="accueil"
+      className="relative flex min-h-[90vh] items-center overflow-hidden bg-night"
+    >
+      {/* Fond premium discret */}
+      <div className="pointer-events-none absolute inset-0" aria-hidden>
+        {/* Subtle two-tone gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0c1222] via-[#0f172a] to-[#111827]" />
+
+        {/* Modern geometric pattern (very low opacity) */}
+        <div
+          className="absolute inset-0 opacity-10"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='none' stroke='%230b1f3a' stroke-width='0.8' stroke-opacity='0.03'%3E%3Cpath d='M0 20 L20 0 M40 20 L60 0 M80 20 L100 0 M120 20 L140 0 M160 20 L180 0'/%3E%3Cpath d='M0 60 L20 40 M40 60 L60 40 M80 60 L100 40 M120 60 L140 40 M160 60 L180 40'/%3E%3C/g%3E%3C/svg%3E")`,
+            backgroundRepeat: "repeat",
+            backgroundSize: "160px 160px",
+            mixBlendMode: "overlay",
+          }}
+        />
+        {/* Filigrane Afrique */}
+        <div className="absolute -right-12 top-1/2 h-[68%] w-[44%] max-w-lg -translate-y-1/2 opacity-20 blur-[0.2px] lg:right-8">
+          <AfricaWatermark />
+        </div>
+        {/* Lignes diplomatiques */}
+        <div className="absolute left-0 top-[18%] h-px w-1/3 bg-gradient-to-r from-[#C8A96B]/25 to-transparent" />
+        <div className="absolute bottom-[22%] right-0 h-px w-1/4 bg-gradient-to-l from-[#0B1F3A]/10 to-transparent" />
+      </div>
+
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-28 md:px-8 lg:px-12 lg:py-36">
+        <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+          {/* Colonne gauche */}
+          <div className="order-1">
+            <motion.p
+              custom={0}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mb-5 flex items-center gap-2.5 text-sm text-white\/70"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-20" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-600" />
+              </span>
+              {t.hero.label}
+            </motion.p>
+
+            <motion.h1
+              custom={1}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="font-display text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-[3.25rem] xl:text-6xl"
+            >
+              Linda J. Bauma
+            </motion.h1>
+
+            <motion.div
+              custom={2}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mt-5 space-y-1.5"
+            >
+              <p className="text-lg font-semibold text-white sm:text-xl">
+                {t.hero.role}
+              </p>
+              <p className="text-base text-white\/70 sm:text-lg">
+                {t.hero.specialty1}
+              </p>
+              <p className="text-base text-white\/70 sm:text-lg">
+                {t.hero.specialty2}
+              </p>
+            </motion.div>
+
+            <motion.div
+              custom={3}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mt-5 h-px w-12 bg-[#C8A96B]"
+              aria-hidden
+            />
+
+            <motion.p
+              custom={4}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mt-5 max-w-lg font-display text-base italic leading-relaxed text-white/80 sm:text-lg"
+            >
+              {t.hero.intro}
+            </motion.p>
+
+            <motion.p
+              custom={5}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mt-5 max-w-xl text-justify text-base leading-[1.75] text-white/65 sm:text-[1.05rem]"
+            >
+              {t.hero.description}
+            </motion.p>
+
+            <motion.p
+              custom={6}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mt-4 text-sm font-medium tracking-wide text-white/50"
+            >
+              {t.hero.regions}
+            </motion.p>
+
+            <motion.div
+              custom={7}
+              variants={fadeIn}
+              initial="hidden"
+              animate="visible"
+              className="mt-9 flex flex-wrap items-center gap-3 sm:gap-4"
+            >
+              <a
+                href={siteConfig.cvPath}
+                download
+                  className="group inline-flex items-center gap-2 rounded-md bg-gold px-6 py-3 text-sm font-semibold text-night shadow-lg transition-transform duration-300 hover:bg-gold-light"
+              >
+                <FaDownload className="text-[#C8A96B] transition-transform duration-300 group-hover:-translate-y-px" />
+                {t.hero.downloadCv}
+              </a>
+              <a
+                href="#contact"
+                  className="group inline-flex items-center gap-2 rounded-md border border-gold bg-transparent px-6 py-3 text-sm font-semibold text-gold transition-shadow duration-300 hover:bg-gold/10 hover:shadow-lg"
+              >
+                <FaEnvelope className="text-[#C8A96B]/80" />
+                {t.hero.contact}
+              </a>
+              <a
+                href="#parcours"
+                className="group inline-flex items-center gap-1.5 px-2 py-3 text-sm font-semibold text-white/70 transition-colors duration-300 hover:text-white"
+              >
+                {t.hero.discover}
+                <FaArrowRight className="text-xs transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
+            </motion.div>
+          </div>
+
+          {/* Colonne droite — portrait */}
+          <motion.div
+            initial={{ opacity: 0, x: 24 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.25, ease: EASE }}
+            className="order-2 flex justify-center lg:justify-end"
+          >
+            <figure className="relative w-full max-w-md lg:max-w-lg">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-gradient-to-tr from-[#081227] via-[#0f172a] to-[#132033] border border-white/6 shadow-2xl">
+                <Image
+                  src={siteConfig.heroPortrait}
+                  alt={t.hero.portraitAlt}
+                  fill
+                  priority
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 480px"
+                />
+              </div>
+              {/* Encadrement discret */}
+              <div
+                className="pointer-events-none absolute -bottom-3 -right-3 h-full w-full rounded-lg border border-white/6"
+                aria-hidden
+              />
+            </figure>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+

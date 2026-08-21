@@ -1,1 +1,181 @@
-{"data":"InVzZSBjbGllbnQiOw0KDQppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOw0KaW1wb3J0IHsgbW90aW9uLCBBbmltYXRlUHJlc2VuY2UgfSBmcm9tICJmcmFtZXItbW90aW9uIjsNCmltcG9ydCB7IEhpTWVudSwgSGlYIH0gZnJvbSAicmVhY3QtaWNvbnMvaGkiOw0KaW1wb3J0IHsgdXNlTGFuZ3VhZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0L0xhbmd1YWdlUHJvdmlkZXIiOw0KaW1wb3J0IHsgZ2V0RmxhZ1VybCB9IGZyb20gIkAvbGliL2RhdGEiOw0KDQpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZWFkZXIoKSB7DQogIGNvbnN0IFtpc1Njcm9sbGVkLCBzZXRJc1Njcm9sbGVkXSA9IHVzZVN0YXRlKGZhbHNlKTsNCiAgY29uc3QgW2lzTW9iaWxlT3Blbiwgc2V0SXNNb2JpbGVPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsNCg0KICB1c2VFZmZlY3QoKCkgPT4gew0KICAgIGNvbnN0IGhhbmRsZVNjcm9sbCA9ICgpID0+IHNldElzU2Nyb2xsZWQod2luZG93LnNjcm9sbFkgPiA0MCk7DQogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoInNjcm9sbCIsIGhhbmRsZVNjcm9sbCwgeyBwYXNzaXZlOiB0cnVlIH0pOw0KICAgIHJldHVybiAoKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigic2Nyb2xsIiwgaGFuZGxlU2Nyb2xsKTsNCiAgfSwgW10pOw0KDQogIHVzZUVmZmVjdCgoKSA9PiB7DQogICAgZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdyA9IGlzTW9iaWxlT3BlbiA/ICJoaWRkZW4iIDogIiI7DQogICAgcmV0dXJuICgpID0+IHsNCiAgICAgIGRvY3VtZW50LmJvZHkuc3R5bGUub3ZlcmZsb3cgPSAiIjsNCiAgICB9Ow0KICB9LCBbaXNNb2JpbGVPcGVuXSk7DQoNCiAgY29uc3QgeyBsYW5nLCBzZXRMYW5nLCB0IH0gPSB1c2VMYW5ndWFnZSgpOw0KICBjb25zdCBoYW5kbGVOYXZDbGljayA9ICgpID0+IHNldElzTW9iaWxlT3BlbihmYWxzZSk7DQoNCiAgcmV0dXJuICgNCiAgICA8aGVhZGVyDQogICAgICBjbGFzc05hbWU9e2BmaXhlZCBpbnNldC14LTAgdG9wLTAgei01MCB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi01MDAgJHsNCiAgICAgICAgaXNTY3JvbGxlZA0KICAgICAgICAgID8gImJnLXdoaXRlLzk1IHNoYWRvdy1sZyBzaGFkb3ctbmlnaHQvNSBiYWNrZHJvcC1ibHVyLW1kIGRhcms6YmctbmlnaHQvOTUgZGFyazpzaGFkb3ctYmxhY2svMjAiDQogICAgICAgICAgOiAiYmctdHJhbnNwYXJlbnQiDQogICAgICB9YH0NCiAgICA+DQogICAgICA8bmF2DQogICAgICAgIGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IG1heC13LTd4bCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHB4LTQgcHktNCBtZDpweC04IGxnOnB4LTEyIg0KICAgICAgICBhcmlhLWxhYmVsPSJOYXZpZ2F0aW9uIHByaW5jaXBhbGUiDQogICAgICA+DQogICAgICAgIDxhDQogICAgICAgICAgaHJlZj0iI2FjY3VlaWwiDQogICAgICAgICAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCBmb250LWJvbGQgdGV4dC1nb2xkIHRyYW5zaXRpb24tY29sb3JzIG1kOnRleHQtMnhsIg0KICAgICAgICA+DQogICAgICAgICAge3Quc2l0ZUNvbmZpZy5uYW1lfQ0KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1nb2xkIj4uPC9zcGFuPg0KICAgICAgICA8L2E+DQoNCiAgICAgICAgPHVsIGNsYXNzTmFtZT0iaGlkZGVuIGl0ZW1zLWNlbnRlciBnYXAtMSBsZzpmbGV4Ij4NCiAgICAgICAgICB7dC5uYXZMaW5rcy5tYXAoKGxpbmspID0+ICgNCiAgICAgICAgICAgIDxsaSBrZXk9e2xpbmsuaHJlZn0+DQogICAgICAgICAgICAgIDxhDQogICAgICAgICAgICAgICAgaHJlZj17bGluay5ocmVmfQ0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgcHgtMyBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6dGV4dC1nb2xkICR7DQogICAgICAgICAgICAgICAgICBpc1Njcm9sbGVkDQogICAgICAgICAgICAgICAgICAgID8gInRleHQtbmlnaHQvODAgaG92ZXI6YmctbGlnaHQgZGFyazp0ZXh0LXdoaXRlLzgwIGRhcms6aG92ZXI6Ymctd2hpdGUvMTAiDQogICAgICAgICAgICAgICAgICAgIDogInRleHQtd2hpdGUvOTAgaG92ZXI6Ymctd2hpdGUvMTAgZGFyazp0ZXh0LXdoaXRlLzkwIGRhcms6aG92ZXI6Ymctd2hpdGUvMTAiDQogICAgICAgICAgICAgICAgfWB9DQogICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICB7bGluay5sYWJlbH0NCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgPC9saT4NCiAgICAgICAgICApKX0NCiAgICAgICAgPC91bD4NCg0KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPg0KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoaWRkZW4gaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLXdoaXRlLzE1IGJnLXdoaXRlLzUgcC0wLjUgbWQ6ZmxleCI+DQogICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiINCiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0TGFuZygiZnIiKX0NCiAgICAgICAgICAgICAgYXJpYS1wcmVzc2VkPXtsYW5nID09PSAiZnIifQ0KICAgICAgICAgICAgICBjbGFzc05hbWU9e2BpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdHJhbnNpdGlvbiAke2xhbmcgPT09ICJmciIgPyAiYmctd2hpdGUgdGV4dC1uaWdodCIgOiAidGV4dC13aGl0ZS83MCBob3ZlcjpiZy13aGl0ZS8xMCJ9YH0NCiAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgPGltZyBzcmM9e2dldEZsYWdVcmwoJ2ZyJyl9IGFsdD0iRnJhbmNlIiBjbGFzc05hbWU9ImgtNCB3LTQgcm91bmRlZC1zbSIgLz4gRlINCiAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iDQogICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldExhbmcoImVuIil9DQogICAgICAgICAgICAgIGFyaWEtcHJlc3NlZD17bGFuZyA9PT0gImVuIn0NCiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtZnVsbCBweC0zIHB5LTIgdGV4dC1zbSBmb250LXNlbWlib2xkIHRyYW5zaXRpb24gJHtsYW5nID09PSAiZW4iID8gImJnLXdoaXRlIHRleHQtbmlnaHQiIDogInRleHQtd2hpdGUvNzAgaG92ZXI6Ymctd2hpdGUvMTAifWB9DQogICAgICAgICAgICA+DQogICAgICAgICAgICAgIDxpbWcgc3JjPXtnZXRGbGFnVXJsKCdnYicpfSBhbHQ9IlVLIiBjbGFzc05hbWU9ImgtNCB3LTQgcm91bmRlZC1zbSIgLz4gRU4NCiAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIg0KICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0SXNNb2JpbGVPcGVuKCFpc01vYmlsZU9wZW4pfQ0KICAgICAgICAgICAgY2xhc3NOYW1lPXtgcm91bmRlZC1sZyBwLTIuNSBsZzpoaWRkZW4gJHsNCiAgICAgICAgICAgICAgaXNTY3JvbGxlZA0KICAgICAgICAgICAgICAgID8gInRleHQtbmlnaHQgZGFyazp0ZXh0LXdoaXRlIg0KICAgICAgICAgICAgICAgIDogInRleHQtd2hpdGUiDQogICAgICAgICAgICB9YH0NCiAgICAgICAgICAgIGFyaWEtbGFiZWw9e2lzTW9iaWxlT3BlbiA/IHQuaGVhZGVyLm1lbnVDbG9zZSA6IHQuaGVhZGVyLm1lbnVPcGVufQ0KICAgICAgICAgICAgYXJpYS1leHBhbmRlZD17aXNNb2JpbGVPcGVufQ0KICAgICAgICAgID4NCiAgICAgICAgICAgIHtpc01vYmlsZU9wZW4gPyAoDQogICAgICAgICAgICAgIDxIaVggY2xhc3NOYW1lPSJoLTYgdy02IiAvPg0KICAgICAgICAgICAgKSA6ICgNCiAgICAgICAgICAgICAgPEhpTWVudSBjbGFzc05hbWU9ImgtNiB3LTYiIC8+DQogICAgICAgICAgICApfQ0KICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICA8L2Rpdj4NCiAgICAgIDwvbmF2Pg0KDQogICAgICA8QW5pbWF0ZVByZXNlbmNlPg0KICAgICAgICB7aXNNb2JpbGVPcGVuICYmICgNCiAgICAgICAgICA8bW90aW9uLmRpdg0KICAgICAgICAgICAgaW5pdGlhbD17eyBvcGFjaXR5OiAwLCBoZWlnaHQ6IDAgfX0NCiAgICAgICAgICAgIGFuaW1hdGU9e3sgb3BhY2l0eTogMSwgaGVpZ2h0OiAiYXV0byIgfX0NCiAgICAgICAgICAgIGV4aXQ9e3sgb3BhY2l0eTogMCwgaGVpZ2h0OiAwIH19DQogICAgICAgICAgICBjbGFzc05hbWU9Im92ZXJmbG93LWhpZGRlbiBib3JkZXItdCBib3JkZXItd2hpdGUvMTAgYmctbmlnaHQgbGc6aGlkZGVuIg0KICAgICAgICAgID4NCiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgcHgtNCBweS00Ij4NCiAgICAgICAgICAgICAge3QubmF2TGlua3MubWFwKChsaW5rLCBpKSA9PiAoDQogICAgICAgICAgICAgICAgPG1vdGlvbi5saQ0KICAgICAgICAgICAgICAgICAga2V5PXtsaW5rLmhyZWZ9DQogICAgICAgICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHg6IC0yMCB9fQ0KICAgICAgICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB4OiAwIH19DQogICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGRlbGF5OiBpICogMC4wNSB9fQ0KICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgIDxhDQogICAgICAgICAgICAgICAgICAgIGhyZWY9e2xpbmsuaHJlZn0NCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlTmF2Q2xpY2t9DQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYmxvY2sgcm91bmRlZC1sZyBweC00IHB5LTMgdGV4dC13aGl0ZS85MCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy13aGl0ZS8xMCBob3Zlcjp0ZXh0LWdvbGQiDQogICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgIHtsaW5rLmxhYmVsfQ0KICAgICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAgIDwvbW90aW9uLmxpPg0KICAgICAgICAgICAgICApKX0NCiAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0ibXQtNCBib3JkZXItdCBib3JkZXItd2hpdGUvMTAgcHQtNCI+DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPg0KICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iDQogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsNCiAgICAgICAgICAgICAgICAgICAgICBzZXRMYW5nKCJmciIpOw0KICAgICAgICAgICAgICAgICAgICAgIGhhbmRsZU5hdkNsaWNrKCk7DQogICAgICAgICAgICAgICAgICAgIH19DQogICAgICAgICAgICAgICAgICAgIGFyaWEtcHJlc3NlZD17bGFuZyA9PT0gImZyIn0NCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZmxleC0xIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiByb3VuZGVkLWxnIHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdHJhbnNpdGlvbiAke2xhbmcgPT09ICJmciIgPyAiYmctZ29sZCB0ZXh0LW5pZ2h0IiA6ICJiZy13aGl0ZS8xMCB0ZXh0LXdoaXRlLzcwIGhvdmVyOmJnLXdoaXRlLzIwIn1gfQ0KICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz17Z2V0RmxhZ1VybCgnZnInKX0gYWx0PSJGcmFuY2UiIGNsYXNzTmFtZT0iaC00IHctNCByb3VuZGVkLXNtIiAvPiBGUg0KICAgICAgICAgICAgICAgICAgPC9idXR0b24+DQogICAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiINCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gew0KICAgICAgICAgICAgICAgICAgICAgIHNldExhbmcoImVuIik7DQogICAgICAgICAgICAgICAgICAgICAgaGFuZGxlTmF2Q2xpY2soKTsNCiAgICAgICAgICAgICAgICAgICAgfX0NCiAgICAgICAgICAgICAgICAgICAgYXJpYS1wcmVzc2VkPXtsYW5nID09PSAiZW4ifQ0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BmbGV4LTEgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbGcgcHgtMyBweS0yIHRleHQtc20gZm9udC1zZW1pYm9sZCB0cmFuc2l0aW9uICR7bGFuZyA9PT0gImVuIiA/ICJiZy1nb2xkIHRleHQtbmlnaHQiIDogImJnLXdoaXRlLzEwIHRleHQtd2hpdGUvNzAgaG92ZXI6Ymctd2hpdGUvMjAifWB9DQogICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtnZXRGbGFnVXJsKCdnYicpfSBhbHQ9IlVLIiBjbGFzc05hbWU9ImgtNCB3LTQgcm91bmRlZC1zbSIgLz4gRU4NCiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICA8L2xpPg0KICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJtdC0yIj4NCiAgICAgICAgICAgICAgICA8YQ0KICAgICAgICAgICAgICAgICAgaHJlZj17dC5zaXRlQ29uZmlnLmNhbGVuZGx5fQ0KICAgICAgICAgICAgICAgICAgdGFyZ2V0PSJfYmxhbmsiDQogICAgICAgICAgICAgICAgICByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiDQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImJsb2NrIHJvdW5kZWQtbGcgYmctZ29sZCBweC00IHB5LTMgdGV4dC1jZW50ZXIgZm9udC1zZW1pYm9sZCB0ZXh0LW5pZ2h0Ig0KICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgIHt0LmhlYWRlci5hcHBvaW50bWVudH0NCiAgICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICAgIDwvbGk+DQogICAgICAgICAgICA8L3VsPg0KICAgICAgICAgIDwvbW90aW9uLmRpdj4NCiAgICAgICAgKX0NCiAgICAgIDwvQW5pbWF0ZVByZXNlbmNlPg0KICAgIDwvaGVhZGVyPg0KICApOw0KfQ0KDQoNCg0KDQoNCg0KDQoNCg=="}
+"use client";
+
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { HiMenu, HiX } from "react-icons/hi";
+import { useLanguage } from "@/components/layout/LanguageProvider";
+import { getFlagUrl } from "@/lib/data";
+
+export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setIsScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = isMobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMobileOpen]);
+
+  const { lang, setLang, t } = useLanguage();
+  const handleNavClick = () => setIsMobileOpen(false);
+
+  return (
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
+        isScrolled
+          ? "bg-white/95 shadow-lg shadow-night/5 backdrop-blur-md dark:bg-night/95 dark:shadow-black/20"
+          : "bg-transparent"
+      }`}
+    >
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-8 lg:px-12"
+        aria-label="Navigation principale"
+      >
+        <a
+          href="#accueil"
+          className="font-display text-xl font-bold text-gold transition-colors md:text-2xl"
+        >
+          {t.siteConfig.name}
+          <span className="text-gold">.</span>
+        </a>
+
+        <ul className="hidden items-center gap-1 lg:flex">
+          {t.navLinks.map((link) => (
+            <li key={link.href}>
+              <a
+                href={link.href}
+                className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors hover:text-gold ${
+                  isScrolled
+                    ? "text-night/80 hover:bg-light dark:text-white/80 dark:hover:bg-white/10"
+                    : "text-white/90 hover:bg-white/10 dark:text-white/90 dark:hover:bg-white/10"
+                }`}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <div className="flex items-center gap-2">
+          <div className="hidden items-center gap-2 rounded-full border border-white/15 bg-white/5 p-0.5 md:flex">
+            <button
+              type="button"
+              onClick={() => setLang("fr")}
+              aria-pressed={lang === "fr"}
+              className={`inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold transition ${lang === "fr" ? "bg-white text-night" : "text-white/70 hover:bg-white/10"}`}
+            >
+              <img src={getFlagUrl('fr')} alt="France" className="h-4 w-4 rounded-sm" /> FR
+            </button>
+            <button
+              type="button"
+              onClick={() => setLang("en")}
+              aria-pressed={lang === "en"}
+              className={`inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold transition ${lang === "en" ? "bg-white text-night" : "text-white/70 hover:bg-white/10"}`}
+            >
+              <img src={getFlagUrl('gb')} alt="UK" className="h-4 w-4 rounded-sm" /> EN
+            </button>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setIsMobileOpen(!isMobileOpen)}
+            className={`rounded-lg p-2.5 lg:hidden ${
+              isScrolled
+                ? "text-night dark:text-white"
+                : "text-white"
+            }`}
+            aria-label={isMobileOpen ? t.header.menuClose : t.header.menuOpen}
+            aria-expanded={isMobileOpen}
+          >
+            {isMobileOpen ? (
+              <HiX className="h-6 w-6" />
+            ) : (
+              <HiMenu className="h-6 w-6" />
+            )}
+          </button>
+        </div>
+      </nav>
+
+      <AnimatePresence>
+        {isMobileOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="overflow-hidden border-t border-white/10 bg-night lg:hidden"
+          >
+            <ul className="flex flex-col px-4 py-4">
+              {t.navLinks.map((link, i) => (
+                <motion.li
+                  key={link.href}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.05 }}
+                >
+                  <a
+                    href={link.href}
+                    onClick={handleNavClick}
+                    className="block rounded-lg px-4 py-3 text-white/90 transition-colors hover:bg-white/10 hover:text-gold"
+                  >
+                    {link.label}
+                  </a>
+                </motion.li>
+              ))}
+              <li className="mt-4 border-t border-white/10 pt-4">
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setLang("fr");
+                      handleNavClick();
+                    }}
+                    aria-pressed={lang === "fr"}
+                    className={`flex-1 inline-flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition ${lang === "fr" ? "bg-gold text-night" : "bg-white/10 text-white/70 hover:bg-white/20"}`}
+                  >
+                    <img src={getFlagUrl('fr')} alt="France" className="h-4 w-4 rounded-sm" /> FR
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setLang("en");
+                      handleNavClick();
+                    }}
+                    aria-pressed={lang === "en"}
+                    className={`flex-1 inline-flex items-center justify-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition ${lang === "en" ? "bg-gold text-night" : "bg-white/10 text-white/70 hover:bg-white/20"}`}
+                  >
+                    <img src={getFlagUrl('gb')} alt="UK" className="h-4 w-4 rounded-sm" /> EN
+                  </button>
+                </div>
+              </li>
+              <li className="mt-2">
+                <a
+                  href={t.siteConfig.calendly}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block rounded-lg bg-gold px-4 py-3 text-center font-semibold text-night"
+                >
+                  {t.header.appointment}
+                </a>
+              </li>
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
+  );
+}
+
+
+
+
+
+
+
+

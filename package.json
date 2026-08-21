@@ -1,1 +1,38 @@
-{"data":"ewogICJuYW1lIjogImxiIiwKICAidmVyc2lvbiI6ICIwLjEuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAiYnVpbGQiOiAibmV4dCBidWlsZCIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCIsCiAgICAibGludCI6ICJlc2xpbnQiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBlbWFpbGpzL2Jyb3dzZXIiOiAiXjQuNC4xIiwKICAgICJkMy1nZW8iOiAiXjMuMS4xIiwKICAgICJmcmFtZXItbW90aW9uIjogIl4xMi40MC4wIiwKICAgICJnc2FwIjogIl4zLjE1LjAiLAogICAgIm5leHQiOiAiMTYuMi43IiwKICAgICJuZXh0LXRoZW1lcyI6ICJeMC40LjYiLAogICAgInJlYWN0IjogIjE5LjIuNCIsCiAgICAicmVhY3QtZG9tIjogIjE5LjIuNCIsCiAgICAicmVhY3QtaWNvbnMiOiAiXjUuNi4wIiwKICAgICJ0b3BvanNvbi1jbGllbnQiOiAiXjMuMS4wIiwKICAgICJ3b3JsZC1hdGxhcyI6ICJeMi4wLjIiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB0YWlsd2luZGNzcy9wb3N0Y3NzIjogIl40IiwKICAgICJAdHlwZXMvZDMtZ2VvIjogIl4zLjEuMCIsCiAgICAiQHR5cGVzL2dlb2pzb24iOiAiXjc5NDYuMC4xNiIsCiAgICAiQHR5cGVzL25vZGUiOiAiXjIwIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE5IiwKICAgICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOSIsCiAgICAiQHR5cGVzL3JlYWN0LXNpbXBsZS1tYXBzIjogIl4zLjAuNiIsCiAgICAiQHR5cGVzL3RvcG9qc29uLWNsaWVudCI6ICJeMy4xLjUiLAogICAgImVzbGludCI6ICJeOSIsCiAgICAiZXNsaW50LWNvbmZpZy1uZXh0IjogIjE2LjIuNyIsCiAgICAidGFpbHdpbmRjc3MiOiAiXjQiLAogICAgInR5cGVzY3JpcHQiOiAiXjUiCiAgfQp9Cg=="}
+{
+  "name": "lb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "d3-geo": "^3.1.1",
+    "framer-motion": "^12.40.0",
+    "gsap": "^3.15.0",
+    "next": "16.2.7",
+    "next-themes": "^0.4.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/d3-geo": "^3.1.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-simple-maps": "^3.0.6",
+    "@types/topojson-client": "^3.1.5",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.7",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
