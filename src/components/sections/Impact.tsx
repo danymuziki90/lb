@@ -32,7 +32,7 @@ export default function Impact() {
   return (
     <section
       id="realisations"
-      className="relative overflow-hidden bg-institutional py-24 md:py-32"
+      className="relative overflow-hidden bg-night py-24 md:py-32"
     >
       {/* Dynamic Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
