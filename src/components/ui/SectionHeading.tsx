@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 interface SectionHeadingProps {
   label?: string;
@@ -17,17 +17,19 @@ export default function SectionHeading({
   align = "center",
   light = false,
 }: SectionHeadingProps) {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
+      initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className={`mb-12 md:mb-16 ${align === "center" ? "text-center" : "text-left"}`}
+      viewport={{ once: true, margin: "-40px" }}
+      transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+      className={`mb-8 sm:mb-12 md:mb-16 ${align === "center" ? "text-center" : "text-left"}`}
     >
       {label && (
         <span
-          className={`mb-3 inline-block text-sm font-semibold uppercase tracking-[0.2em] ${
+          className={`mb-2.5 inline-block text-xs font-bold uppercase tracking-[0.2em] sm:text-sm ${
             light ? "text-gold" : "text-institutional"
           }`}
         >
@@ -35,7 +37,7 @@ export default function SectionHeading({
         </span>
       )}
       <h2
-        className={`font-display text-3xl font-bold leading-tight md:text-4xl lg:text-5xl ${
+        className={`font-display text-2xl font-bold leading-tight tracking-tight sm:text-3xl md:text-4xl lg:text-5xl break-words ${
           light ? "text-white" : "text-night dark:text-white"
         }`}
       >
@@ -43,15 +45,15 @@ export default function SectionHeading({
       </h2>
       {subtitle && (
         <p
-          className={`mx-auto mt-4 max-w-2xl text-base leading-relaxed md:text-lg ${
+          className={`mx-auto mt-3 max-w-2xl text-sm leading-relaxed sm:mt-4 sm:text-base md:text-lg break-words ${
             align === "center" ? "" : "mx-0"
-          } ${light ? "text-white/70" : "text-night/60 dark:text-white/60"}`}
+          } ${light ? "text-white/75" : "text-night/65 dark:text-white/65"}`}
         >
           {subtitle}
         </p>
       )}
       <div
-        className={`mt-6 h-1 w-16 bg-gold ${align === "center" ? "mx-auto" : ""}`}
+        className={`mt-4 h-1 w-12 rounded-full bg-gold sm:mt-6 sm:w-16 ${align === "center" ? "mx-auto" : ""}`}
         aria-hidden
       />
     </motion.div>

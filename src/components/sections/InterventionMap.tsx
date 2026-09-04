@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { feature } from "topojson-client";
 import { geoMercator, geoPath, geoCentroid } from "d3-geo";
 import type { Feature, FeatureCollection, Geometry } from "geojson";
@@ -35,6 +35,7 @@ function isInAfrica(feature: Feature<Geometry>): boolean {
 
 export default function InterventionMap() {
   const { t } = useLanguage();
+  const shouldReduceMotion = useReducedMotion();
   const [activeCountry, setActiveCountry] = useState<string | null>(null);
 
   const { africaFeatures, pathGenerator, markerPositions } = useMemo(() => {
@@ -76,8 +77,12 @@ export default function InterventionMap() {
 
   const activeData = interventionCountries.find((c) => c.id === activeCountry);
 
+  const handleCountryToggle = (id: string) => {
+    setActiveCountry((prev) => (prev === id ? null : id));
+  };
+
   return (
-    <section className="bg-light py-20 dark:bg-night/50 md:py-28">
+    <section className="bg-light py-14 sm:py-20 dark:bg-night/50 md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
         <SectionHeading
           label={t.interventionMap.label}
@@ -85,31 +90,31 @@ export default function InterventionMap() {
           subtitle={t.interventionMap.subtitle}
         />
 
-        {/* Légende régions */}
-        <div className="mb-8 flex flex-wrap justify-center gap-4 md:gap-6">
+        {/* Legend */}
+        <div className="mb-6 sm:mb-8 flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6">
           {Object.entries(interventionRegions).map(([key, region]) => (
             <div key={key} className="flex items-center gap-2">
               <span
-                className="h-3 w-3 rounded-full"
+                className="h-2.5 w-2.5 rounded-full sm:h-3 sm:w-3"
                 style={{ backgroundColor: region.color }}
               />
-              <span className="text-sm font-medium text-night/70 dark:text-white/70">
+              <span className="text-xs sm:text-sm font-medium text-night/70 dark:text-white/70">
                 {t.interventionMap.regions[key as keyof typeof t.interventionMap.regions]}
               </span>
             </div>
           ))}
         </div>
 
-        <div className="grid items-start gap-10 lg:grid-cols-5 lg:gap-12">
-          {/* Carte SVG */}
+        <div className="mx-auto grid w-[calc(100%-1rem)] max-w-6xl items-start gap-8 sm:w-full lg:grid-cols-5 lg:gap-12">
+          {/* SVG Map Container */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.97 }}
+            initial={{ opacity: 0, scale: shouldReduceMotion ? 1 : 0.98 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
+            viewport={{ once: true, margin: "-40px" }}
+            transition={{ duration: shouldReduceMotion ? 0.2 : 0.65 }}
             className="relative lg:col-span-3"
           >
-            <div className="overflow-hidden rounded-2xl border border-night/5 bg-gradient-to-br from-[#0B1F3A] to-[#132d4f] p-4 shadow-2xl dark:border-white/10 md:p-6">
+            <div className="relative overflow-hidden rounded-2xl border border-night/5 bg-gradient-to-br from-[#0B1F3A] to-[#132d4f] p-3 sm:p-4 md:p-6 shadow-xl dark:border-white/10">
               <svg
                 viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
                 className="h-auto w-full"
@@ -136,7 +141,7 @@ export default function InterventionMap() {
                   </linearGradient>
                 </defs>
 
-                {/* Pays africains — fond */}
+                {/* African countries */}
                 {africaFeatures.map((geoFeature) => {
                   const id = geoFeature.id?.toString() ?? "";
                   const isIntervention = interventionNumericIds.has(id);
@@ -168,19 +173,19 @@ export default function InterventionMap() {
                       strokeWidth={isActive ? 1.5 : isIntervention ? 0.8 : 0.4}
                       className="cursor-pointer transition-all duration-300"
                       filter={isActive ? "url(#glow)" : undefined}
+                      onClick={() => country && handleCountryToggle(country.id)}
                       onMouseEnter={() =>
                         country && setActiveCountry(country.id)
                       }
-                      onMouseLeave={() => setActiveCountry(null)}
+                      onMouseLeave={() => {}}
                       onFocus={() => country && setActiveCountry(country.id)}
-                      onBlur={() => setActiveCountry(null)}
                       tabIndex={isIntervention ? 0 : -1}
                       aria-label={country?.name}
                     />
                   );
                 })}
 
-                {/* Marqueurs drapeaux */}
+                {/* Flag markers */}
                 {markerPositions.map(({ country, x, y }) => {
                   const isActive = activeCountry === country.id;
                   if (!interventionNumericIds.has(country.numericId)) return null;
@@ -189,9 +194,10 @@ export default function InterventionMap() {
                     <g
                       key={country.id}
                       transform={`translate(${x}, ${y})`}
-                      className="pointer-events-none"
+                      className="cursor-pointer"
+                      onClick={() => handleCountryToggle(country.id)}
                     >
-                      {isActive && (
+                      {isActive && !shouldReduceMotion && (
                         <circle
                           r={18}
                           fill="none"
@@ -234,7 +240,7 @@ export default function InterventionMap() {
                 })}
               </svg>
 
-              {/* Tooltip pays actif */}
+              {/* Active country tooltip / badge */}
               <AnimatePresence>
                 {activeData && (
                   <motion.div
@@ -242,37 +248,50 @@ export default function InterventionMap() {
                     initial={{ opacity: 0, y: 8 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 8 }}
-                    className="absolute bottom-6 left-6 right-6 flex items-center gap-4 rounded-xl border border-gold/30 bg-night/95 px-5 py-4 backdrop-blur-md"
+                    transition={{ duration: 0.2 }}
+                    className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between gap-3 rounded-xl border border-gold/30 bg-night/95 p-3 backdrop-blur-md sm:bottom-4 sm:left-4 sm:right-4 sm:p-4"
                   >
-                    <CountryFlag
-                      iso2={activeData.iso2}
-                      alt={`${t.interventionMap.flagAlt} ${activeData.name}`}
-                      size={40}
-                    />
-                    <div>
-                      <p className="font-display text-lg font-bold text-white">
-                        {activeData.name}
-                      </p>
-                      <p className="text-sm text-gold">
-                        {t.interventionMap.regions[activeData.region]}
-                      </p>
+                    <div className="flex items-center gap-3">
+                      <CountryFlag
+                        iso2={activeData.iso2}
+                        alt={`${t.interventionMap.flagAlt} ${activeData.name}`}
+                        size={40}
+                        className="shrink-0"
+                      />
+                      <div>
+                        <p className="font-display text-sm font-bold text-white sm:text-base">
+                          {activeData.name}
+                        </p>
+                        <p className="text-xs text-gold">
+                          {t.interventionMap.regions[activeData.region]}
+                        </p>
+                      </div>
                     </div>
+                    <button
+                      type="button"
+                      onClick={() => setActiveCountry(null)}
+                      className="rounded-full bg-white/10 px-2.5 py-1 text-xs text-white/70 hover:bg-white/20 hover:text-white"
+                      aria-label="Fermer"
+                    >
+                      &times;
+                    </button>
                   </motion.div>
                 )}
               </AnimatePresence>
             </div>
           </motion.div>
 
-          {/* Liste pays avec drapeaux */}
-          <div className="flex flex-col gap-3 lg:col-span-2">
+          {/* Country card list */}
+          <div className="flex flex-col gap-2.5 sm:gap-3 lg:col-span-2">
             {interventionCountries.map((country, index) => (
               <CountryCard
                 key={country.id}
                 country={country}
                 index={index}
                 isActive={activeCountry === country.id}
-                onHover={setActiveCountry}
+                onSelect={handleCountryToggle}
                 regionLabels={t.interventionMap.regions}
+                shouldReduceMotion={shouldReduceMotion}
               />
             ))}
           </div>
@@ -286,56 +305,55 @@ function CountryCard({
   country,
   index,
   isActive,
-  onHover,
+  onSelect,
   regionLabels,
+  shouldReduceMotion,
 }: {
   country: InterventionCountry;
   index: number;
   isActive: boolean;
-  onHover: (id: string | null) => void;
+  onSelect: (id: string) => void;
   regionLabels: Record<InterventionCountry["region"], string>;
+  shouldReduceMotion: boolean | null;
 }) {
   const region = interventionRegions[country.region];
 
   return (
     <motion.button
       type="button"
-      initial={{ opacity: 0, x: 24 }}
+      initial={{ opacity: 0, x: shouldReduceMotion ? 0 : 16 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      transition={{ delay: index * 0.07 }}
-      onMouseEnter={() => onHover(country.id)}
-      onMouseLeave={() => onHover(null)}
-      onFocus={() => onHover(country.id)}
-      onBlur={() => onHover(null)}
-      className={`flex w-full items-center gap-4 rounded-xl border p-4 text-left transition-all duration-300 ${
+      transition={{ delay: shouldReduceMotion ? 0 : index * 0.05 }}
+      onClick={() => onSelect(country.id)}
+      className={`flex min-h-[46px] w-full items-center gap-3 sm:gap-4 rounded-xl border p-3 sm:p-4 text-left transition-all duration-300 ${
         isActive
-          ? "border-gold bg-gold/10 shadow-lg shadow-gold/10"
-          : "border-night/5 bg-white hover:border-institutional/20 hover:shadow-md dark:border-white/10 dark:bg-night dark:hover:border-gold/30"
+          ? "border-gold bg-gold/10 shadow-md shadow-gold/10"
+          : "border-night/5 bg-white hover:border-institutional/20 hover:shadow-sm dark:border-white/10 dark:bg-night dark:hover:border-gold/30"
       }`}
     >
       <CountryFlag
         iso2={country.iso2}
         alt={`Drapeau ${country.name}`}
         size={40}
-        className={`shrink-0 transition-transform duration-300 ${isActive ? "scale-110" : ""}`}
+        className={`shrink-0 transition-transform duration-300 ${isActive ? "scale-105" : ""}`}
       />
       <div className="min-w-0 flex-1">
-        <p className="truncate text-sm font-semibold text-night dark:text-white">
+        <p className="truncate text-xs sm:text-sm font-semibold text-night dark:text-white">
           {country.name}
         </p>
-        <div className="mt-1 flex items-center gap-2">
+        <div className="mt-0.5 flex items-center gap-1.5 sm:gap-2">
           <span
-            className="h-1.5 w-1.5 rounded-full"
+            className="h-1.5 w-1.5 rounded-full shrink-0"
             style={{ backgroundColor: region.color }}
           />
-          <span className="text-xs text-night/50 dark:text-white/50">
+          <span className="truncate text-[11px] sm:text-xs text-night/50 dark:text-white/50">
             {regionLabels[country.region]}
           </span>
         </div>
       </div>
       <span
-        className={`shrink-0 rounded-md px-2 py-1 text-xs font-bold transition-colors ${
+        className={`shrink-0 rounded-md px-2 py-0.5 text-xs font-bold transition-colors ${
           isActive
             ? "bg-gold text-night"
             : "bg-institutional/10 text-institutional dark:bg-gold/10 dark:text-gold"
