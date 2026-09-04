@@ -47,7 +47,7 @@ export default function SectionHeading({
         <p
           className={`mx-auto mt-3 max-w-2xl text-sm leading-relaxed sm:mt-4 sm:text-base md:text-lg break-words ${
             align === "center" ? "" : "mx-0"
-          } ${light ? "text-white/75" : "text-night/65 dark:text-white/65"}`}
+          } ${light ? "text-white/90" : "text-night/80 dark:text-white/85"}`}
         >
           {subtitle}
         </p>
