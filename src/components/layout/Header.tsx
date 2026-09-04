@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useLanguage } from "@/components/layout/LanguageProvider";
 import { getFlagUrl } from "@/lib/data";
@@ -9,6 +10,9 @@ import { getFlagUrl } from "@/lib/data";
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const mobileMenuRef = useRef<HTMLDivElement>(null);
+  const wasMobileMenuOpen = useRef(false);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 30);
@@ -25,6 +29,56 @@ export default function Header() {
     return () => {
       document.body.style.overflow = "";
     };
+  }, [isMobileOpen]);
+
+  useEffect(() => {
+    if (!isMobileOpen) {
+      if (wasMobileMenuOpen.current) {
+        menuButtonRef.current?.focus();
+        wasMobileMenuOpen.current = false;
+      }
+      return;
+    }
+
+    wasMobileMenuOpen.current = true;
+    const menu = mobileMenuRef.current;
+    if (!menu) return;
+
+    const getFocusableElements = () =>
+      Array.from(
+        menu.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )
+      );
+
+    const focusableElements = getFocusableElements();
+    focusableElements[0]?.focus();
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setIsMobileOpen(false);
+        return;
+      }
+
+      if (event.key !== "Tab") return;
+
+      const elements = getFocusableElements();
+      const firstElement = elements[0];
+      const lastElement = elements.at(-1);
+      if (!firstElement || !lastElement) return;
+
+      if (event.shiftKey && document.activeElement === firstElement) {
+        event.preventDefault();
+        lastElement.focus();
+      } else if (!event.shiftKey && document.activeElement === lastElement) {
+        event.preventDefault();
+        firstElement.focus();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
   }, [isMobileOpen]);
 
   const { lang, setLang, t } = useLanguage();
@@ -67,6 +121,18 @@ export default function Header() {
               </a>
             </li>
           ))}
+          <li>
+            <Link
+              href="/publications"
+              className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors hover:text-gold ${
+                isScrolled
+                  ? "text-night/80 hover:bg-light dark:text-white/80 dark:hover:bg-white/10"
+                  : "text-white/90 hover:bg-white/10"
+              }`}
+            >
+              {lang === "fr" ? "Publications" : "Publications"}
+            </Link>
+          </li>
         </ul>
 
         {/* Action controls: language toggle & mobile menu trigger */}
@@ -136,6 +202,7 @@ export default function Header() {
           {/* Mobile hamburger button */}
           <button
             type="button"
+            ref={menuButtonRef}
             onClick={() => setIsMobileOpen(!isMobileOpen)}
             className={`flex h-10 w-10 items-center justify-center rounded-lg transition-colors lg:hidden ${
               isScrolled
@@ -164,7 +231,7 @@ export default function Header() {
             transition={{ duration: 0.25, ease: "easeInOut" }}
             className="max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-white/10 bg-night/98 backdrop-blur-xl shadow-2xl lg:hidden"
           >
-            <div className="flex flex-col px-4 py-5 sm:px-6">
+            <div ref={mobileMenuRef} className="flex flex-col px-4 py-5 sm:px-6">
               <ul className="flex flex-col space-y-1">
                 {t.navLinks.map((link, i) => (
                   <motion.li
@@ -182,6 +249,15 @@ export default function Header() {
                     </a>
                   </motion.li>
                 ))}
+                <li>
+                  <Link
+                    href="/publications"
+                    onClick={handleNavClick}
+                    className="flex min-h-[44px] items-center rounded-lg px-4 py-3 text-base font-medium text-white/90 transition-colors hover:bg-white/10 hover:text-gold"
+                  >
+                    {lang === "fr" ? "Publications" : "Publications"}
+                  </Link>
+                </li>
               </ul>
 
               {/* Mobile drawer actions */}
